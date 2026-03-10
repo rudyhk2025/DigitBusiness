@@ -1,0 +1,23 @@
+{
+    "st": 0,
+    "code": 0,
+    "msg": "success",
+    "extra": {
+        "now": 1772708205000,
+        "log_id": "2026030518564500EA4B2931D11F7BA056"
+    },
+    "data": {
+        "contact_info": {
+            "times_left": 295,
+            "contact_value": "ll_37660"
+        },
+        "contact_info2": {
+            "times_left": 294,
+            "contact_value": "17200947949(+1856)"
+        },
+        "connection_check": {
+            "is_passed": true,
+            "popwindow_type": -1
+        }
+    }
+}

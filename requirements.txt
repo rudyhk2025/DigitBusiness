@@ -1,0 +1,17 @@
+# 数字员工 - 依赖 (Python 3.10+)
+# 自动化底层
+playwright>=1.40.0
+playwright-stealth>=2.0.0
+
+# AI 大脑 (二选一或同时装)
+openai
+
+# 国产大模型兼容 OpenAI 接口时用 openai 包即可；若用其他 SDK 可追加
+# openai 通过 base_url 可对接 DeepSeek / 通义 等
+
+# 本地存储（标准库 sqlite3，无需额外包；可选 ORM）
+# 通知
+# 标准库 smtplib 即可；若用 requests 发 Webhook 可加：
+requests>=2.28.0
+
+python-dotenv

@@ -1,0 +1,125 @@
+{
+    "code": 0,
+    "data": {
+        "level": 3,
+        "account_douyin": "83063338045",
+        "gender": 2,
+        "city": "湖北·荆州",
+        "bind_lark_status": false,
+        "nickname": "是慧慧吖",
+        "fans_sum": "6.2万",
+        "works_type": [
+            "剧情"
+        ],
+        "agency": "",
+        "product_main_type": {
+            "滋补保健": "25",
+            "食品饮料": "60"
+        },
+        "product_main_type_array": [
+            {
+                "name": "食品饮料",
+                "val": "60"
+            },
+            {
+                "name": "滋补保健",
+                "val": "25"
+            }
+        ],
+        "score": "",
+        "reputation_level": 0,
+        "special_price": 0,
+        "join_price": 0,
+        "bargaining": 0,
+        "duration": 0,
+        "in_business": 0,
+        "introduction": "😍喜欢唱歌🎵 跳舞💃安静 ✈️旅行\n本身自己喜欢💕买买买…..\n👉把身边体验过实惠🤍健康东西推荐给大家\n⌚️每晚7:30-11:00准时直播分享生活啦！\n感谢你们关注！商务合作S",
+        "sale_type": "带货型达人",
+        "rec_reason": [],
+        "daren_plaza_rec_reason": {
+            "tag": 0,
+            "value": ""
+        },
+        "avatar": "https://p3-sign.douyinpic.com/aweme/200x200/aweme-avatar/tos-cn-avt-0015_ae15274b5c755fb74817b1cb5c980438.jpeg?x-expires=1772730000\u0026x-signature=zykBWBKwSKy0LRLvalPqVn3v0a8%3D\u0026from=3370593410",
+        "error_msg": "",
+        "share_url_douyin": "https://v.douyin.com/s/nT6kQhkMUwA/",
+        "recommend_reasons": [],
+        "credit_score": 0,
+        "intention_catgory": [],
+        "cooperate_mode": "",
+        "commission_ratio": "",
+        "sell_requirement": {
+            "charge_standard": {
+                "tag": 0,
+                "value": ""
+            },
+            "requirement": 0
+        },
+        "dark_horses": [],
+        "high_online_reply_rate": false,
+        "high_invitation_reply_rate": true,
+        "insitution_id": "0",
+        "web_homepage_url": "https://www.douyin.com/user/MS4wLjABAAAAoynz1mH10ty_HCPveF7i7aR-Nk8IId5MeqPk9AlYcXA",
+        "high_cooperation": false,
+        "is_star": false,
+        "tags": [
+            {
+                "type": 3,
+                "content": "结算率高",
+                "tip": "",
+                "extra": ""
+            }
+        ],
+        "act_info": null,
+        "author_rec_reasons": [
+            {
+                "tag_type": 1006,
+                "reason": "有联系方式",
+                "extra": "",
+                "extra_map": {
+                    "category": "weak",
+                    "tips": "达人自主披露联系方式，你可点击小眼睛进行查看"
+                },
+                "log_params": {
+                    "category": "weak",
+                    "reason": "有联系方式",
+                    "tag_type": "1006",
+                    "tips": "达人自主披露联系方式，你可点击小眼睛进行查看"
+                }
+            },
+            {
+                "tag_type": 1004,
+                "reason": "回复率高",
+                "extra": "",
+                "extra_map": {
+                    "category": "weak",
+                    "tips": ""
+                },
+                "log_params": {
+                    "category": "weak",
+                    "reason": "回复率高",
+                    "tag_type": "1004",
+                    "tips": ""
+                }
+            },
+            {
+                "tag_type": 1012,
+                "reason": "非投放流量占比高",
+                "extra": "",
+                "extra_map": {
+                    "category": "weak",
+                    "tips": "近30天达人视频非推广流量的占比大于80%"
+                },
+                "log_params": {
+                    "category": "weak",
+                    "reason": "非投放流量占比高",
+                    "tag_type": "1012",
+                    "tips": "近30天达人视频非推广流量的占比大于80%"
+                }
+            }
+        ]
+    },
+    "log_id": "20260305175240038E82D4EC19768F6794",
+    "msg": "",
+    "st": 0
+}

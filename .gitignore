@@ -1,0 +1,32 @@
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 运行时与敏感
+data/*
+!data/.gitkeep
+*.db
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 截图/日志（可选保留）
+*.png
+*.log
+.DS_Store
