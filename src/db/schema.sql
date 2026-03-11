@@ -45,12 +45,29 @@ CREATE TABLE IF NOT EXISTS talent_jd (
     updated_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
 
--- 小红书达人表 (talent_xhs) 占位，后续补充字段
+-- 小红书达人表 (talent_xhs)
+-- uid: v2 的 userId / buyers 的 distributor_id
 CREATE TABLE IF NOT EXISTS talent_xhs (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    talent_id TEXT NOT NULL UNIQUE,
-    nickname TEXT,
+    uid TEXT NOT NULL UNIQUE,
+    red_id TEXT,
+    nickname TEXT NOT NULL,
+    fans_num INTEGER,
+    personal_tags TEXT,
+    content_tags TEXT,
+    trade_type TEXT,
+    avatar TEXT,
+    gender TEXT,
     status INTEGER NOT NULL DEFAULT 0,
+    location TEXT,
+    main_sale_type TEXT,
+    introduction TEXT,
+    wechat TEXT,
+    phone TEXT,
+    chat_log TEXT,
+    contact TEXT,
     created_at TEXT NOT NULL DEFAULT (datetime('now')),
     updated_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
+CREATE INDEX IF NOT EXISTS idx_talent_xhs_status ON talent_xhs(status);
+CREATE INDEX IF NOT EXISTS idx_talent_xhs_uid ON talent_xhs(uid);

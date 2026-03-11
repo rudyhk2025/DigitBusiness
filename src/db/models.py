@@ -61,6 +61,31 @@ class DouyinTalent:
 
 
 @dataclass
+class XiaohongshuTalent:
+    """
+    小红书达人表 (talent_xhs) 对应模型。
+    uid: v2 的 userId / buyers 的 distributor_id
+    """
+    uid: str
+    nickname: str
+    red_id: Optional[str] = None
+    fans_num: Optional[int] = None
+    personal_tags: Optional[str] = None  # JSON 或 pipe 分隔
+    content_tags: Optional[str] = None   # JSON 或 pipe 分隔
+    trade_type: Optional[str] = None
+    avatar: Optional[str] = None
+    gender: Optional[str] = None
+    status: int = STATUS_NOT_INVITED
+    location: Optional[str] = None
+    main_sale_type: Optional[str] = None
+    introduction: Optional[str] = None
+    wechat: Optional[str] = None
+    phone: Optional[str] = None
+    chat_log: Optional[str] = None
+    contact: Optional[str] = None
+
+
+@dataclass
 class TalentCandidate:
     """
     筛选引擎输出的统一结构，用于跨平台对话等场景。

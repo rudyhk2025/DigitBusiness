@@ -16,7 +16,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.env.browser_manager import BrowserManager
-from src.db import talent_dy_repo
+from src.db import talent_dy_repo, talent_xhs_repo
 
 PLATFORM_MODULES = {
     "DY": ("src.filter.douyin", "fetch_one_page"),
@@ -40,13 +40,17 @@ async def main(platform: str, use_persistent: bool = True):
         if platform == "DY":
             async def _on_candidate(c):
                 talent_dy_repo.add(c)
-                print(f"  - {c.nickname} ({c.uid})")
+                print(f"  add db: {c.nickname} ({c.uid}), phone: {c.phone}, wechat: {c.wechat}")
 
             candidates = await fetch_one_page(page, search_text="保健品", on_candidate=_on_candidate)
             print(f"  本次共解析到 {len(candidates)} 条，已写入 talent_dy")
         elif platform == "XHS":
-            candidates = await fetch_one_page(page, limit=20)
-            print(f"  本页解析到 {len(candidates)} 条（XHS 待接入分表）")
+            async def _on_candidate(c):
+                talent_xhs_repo.add(c)
+                print(f"  add db: {c.nickname} ({c.uid}), phone: {c.phone}, wechat: {c.wechat}")
+
+            candidates = await fetch_one_page(page, kol_type="live", note_contentTag="健康养生", live_first_category="保健食品/膳食营养补充食品", live_second_category="普通膳食营养食品", limit=20, on_candidate=_on_candidate)
+            print(f"  本次共解析到 {len(candidates)} 条，已写入 talent_xhs")
         else:
             candidates = await fetch_one_page(page)
             print(f"  本页解析到 {len(candidates)} 条（JD 待接入分表）")

@@ -1,0 +1,2205 @@
+{
+    "code": 0,
+    "success": true,
+    "msg": "成功",
+    "data": {
+        "distributor_info_list": [
+            {
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "price_method": 1,
+                            "product_id": "68d9db48ff761c001572cd41",
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "telephone": "T+CJsqsADbidhMNSXf1TqA==",
+                    "latest_live_plan": "2026/03/11",
+                    "live_plan": {
+                        "live_plan_id": "7614790232053479682",
+                        "is_applied": false,
+                        "reservation_number": "未发布预告",
+                        "title": "你有5个共同好友也在观看直播",
+                        "start_time": 1773190740000,
+                        "end_time": 1773205140000,
+                        "is_expired": false,
+                        "plan_goods_count": 188,
+                        "selected_goods_count": 159
+                    },
+                    "is_seller_visibility": 1,
+                    "grade": 2,
+                    "buyer_bar_list": [
+                        {
+                            "title": "你有5个共同好友也在观看直播",
+                            "start_time": 1773190740000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": [],
+                    "willing_commsion": "不限"
+                },
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "max_online_people_num": 44,
+                    "distributor_name": "大默子子｜高端抗衰美护内服买手",
+                    "distribution_live_num": 0,
+                    "note_read_median_num": 247,
+                    "cooperate_grass_blogger": false,
+                    "active_fans_rate": 0.5512,
+                    "red_id": "momishero6688",
+                    "max_klive_seller_real_income_amt": "2w-5w",
+                    "note_base_infos": [
+                        {
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831tb4sgsnls005o5gil0083liaiuj1p8?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2,
+                            "note_id": "69a96e91000000001a023053"
+                        }
+                    ],
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31ovoag70hq0g5o5gil0083lidnf0heg?imageView2/2/w/80/format/jpg",
+                    "city": "福建 厦门",
+                    "distribution_category": [
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "海外膳食营养补充食品",
+                                "普通膳食营养食品"
+                            ]
+                        },
+                        {
+                            "first_category": "美容护肤/美体/精油",
+                            "second_category": [
+                                "面部精华",
+                                "面膜",
+                                "眼部护理",
+                                "乳液/面霜",
+                                "面部护理套装",
+                                "胸部护理",
+                                "唇部护理",
+                                "洁面"
+                            ]
+                        },
+                        {
+                            "first_category": "美容美体仪器",
+                            "second_category": [
+                                "面部美容工具"
+                            ]
+                        }
+                    ],
+                    "avg_live_viewer_num": "194",
+                    "content_category": [],
+                    "buyer_activity": [],
+                    "bcoo_order_cnt": 0,
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "avg_sale_amount": "5000-1w",
+                    "live_day_cnt": 57,
+                    "sex": "女",
+                    "fans_num": 2854,
+                    "note_engage_median": 0,
+                    "live_viewer_num": 202,
+                    "atv": "2000-5000",
+                    "content_categorys": [
+                        "护肤",
+                        "健康养生"
+                    ],
+                    "live_base_info": {
+                        "live_id": "570176792612068422",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g05031t5cvd685m005o5gil0083lisdcb5e0"
+                    },
+                    "buyer_business_tags": [],
+                    "distributor_id": "60b095400000000001000eb2",
+                    "buyer_tag": [
+                        "4",
+                        "1"
+                    ],
+                    "avg_sale_amount_value": 5190.973529411765,
+                    "cooperative_brand_agmv": "2000-5000"
+                }
+            },
+            {
+                "distributor_data_info": {
+                    "cooperate_grass_blogger": false,
+                    "note_engage_median": 0,
+                    "red_id": "4994260633",
+                    "atv": "500-1000",
+                    "avg_live_viewer_num": "114",
+                    "bcoo_order_cnt": 0,
+                    "max_online_people_num": 10,
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "city": "重庆",
+                    "content_category": [],
+                    "distribution_category": [
+                        {
+                            "second_category": [
+                                "普通膳食营养食品",
+                                "海外膳食营养补充食品"
+                            ],
+                            "first_category": "保健食品/膳食营养补充食品"
+                        },
+                        {
+                            "first_category": "粮油调味/速食/干货/烘焙",
+                            "second_category": [
+                                "食用油/调味油"
+                            ]
+                        }
+                    ],
+                    "note_read_median_num": 1503,
+                    "max_klive_seller_real_income_amt": "1000-2000",
+                    "buyer_business_tags": [],
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo3105tbc3olo5g5o9asc1g956n8dglkvo?imageView2/2/w/80/format/jpg",
+                    "distribution_live_num": 0,
+                    "avg_sale_amount": "500-1000",
+                    "active_fans_rate": 0.5522,
+                    "avg_sale_amount_value": 879.3050000000001,
+                    "sex": "女",
+                    "fans_num": 6844,
+                    "content_categorys": [
+                        "健康养生",
+                        "抗老",
+                        "职场生活",
+                        "抗氧化"
+                    ],
+                    "distributor_id": "612ae30300000000010094d7",
+                    "distributor_name": "木子火火",
+                    "cooperative_brand_agmv": "200-500",
+                    "live_day_cnt": 11,
+                    "note_base_infos": [
+                        {
+                            "note_id": "69af79ec000000002202c587",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831th1pokv566g5o9asc1g956n2o4jnrg?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "live_base_info": {
+                        "live_id": "570179944544924140",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g05031t841mtp58605o9asc1g956n8aicva0"
+                    },
+                    "live_viewer_num": 95,
+                    "buyer_activity": [],
+                    "buyer_tag": [
+                        "1"
+                    ]
+                },
+                "invitation_info": {
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "66d434a72206520015103115"
+                        }
+                    ]
+                },
+                "distributor_extra_info": {
+                    "latest_live_plan": "2026/03/17",
+                    "live_plan": {
+                        "live_plan_id": "7615482748228687489",
+                        "start_time": 1773723600000,
+                        "end_time": 1773723600000,
+                        "is_applied": false,
+                        "reservation_number": "1人",
+                        "title": "女性抗衰",
+                        "is_expired": false,
+                        "plan_goods_count": 0,
+                        "selected_goods_count": 0
+                    },
+                    "is_seller_visibility": 1,
+                    "grade": 1,
+                    "buyer_bar_list": [
+                        {
+                            "title": "女性抗衰",
+                            "start_time": 1773723600000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "cde8qgVmG+9kkHdBTgF8ig=="
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "fans_num": 5503,
+                    "note_read_median_num": 8847,
+                    "content_categorys": [
+                        "护肤",
+                        "抗老",
+                        "祛皱",
+                        "隔离防晒",
+                        "眼部护理"
+                    ],
+                    "max_online_people_num": 94,
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "distributor_name": "Roywin",
+                    "city": "广东 佛山",
+                    "buyer_tag": [],
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31ids74tr02005nr7cu50bttffdf5fc8?imageView2/2/w/80/format/jpg",
+                    "distribution_category": [
+                        {
+                            "first_category": "美容护肤/美体/精油",
+                            "second_category": [
+                                "洁面",
+                                "面部精华",
+                                "乳液/面霜",
+                                "身体清洁",
+                                "手部保养",
+                                "防晒",
+                                "局部护理",
+                                "颈部护理",
+                                "面膜",
+                                "足部护理",
+                                "精油芳疗",
+                                "眼部护理",
+                                "唇部护理",
+                                "身体护理",
+                                "化妆水/爽肤水"
+                            ]
+                        },
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品",
+                                "海外膳食营养补充食品"
+                            ]
+                        },
+                        {
+                            "first_category": "彩妆/香水/美妆工具",
+                            "second_category": [
+                                "香水/香水用品",
+                                "面部彩妆"
+                            ]
+                        }
+                    ],
+                    "avg_sale_amount_value": 13549.433333333334,
+                    "cooperative_brand_agmv": "1000-2000",
+                    "bcoo_order_cnt": 0,
+                    "content_category": [],
+                    "atv": "500-1000",
+                    "note_base_infos": [
+                        {
+                            "note_id": "69ae1e2a000000001a033aae",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831tfma1uslk005nr7cu50bttf2emp9c0?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "note_engage_median": 0,
+                    "avg_sale_amount": "1w-2w",
+                    "live_base_info": {
+                        "live_id": "570145523723431677",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31sikl6b4m8705nr7cu50bttfeoqsle8"
+                    },
+                    "distributor_id": "5f67678a000000000101f7af",
+                    "active_fans_rate": 0.8623,
+                    "live_day_cnt": 6,
+                    "cooperate_grass_blogger": false,
+                    "sex": "男",
+                    "live_viewer_num": 1058,
+                    "distribution_live_num": 0,
+                    "red_id": "SphinxDeng",
+                    "buyer_activity": [],
+                    "max_klive_seller_real_income_amt": "2w-5w",
+                    "avg_live_viewer_num": "1515",
+                    "buyer_business_tags": []
+                },
+                "invitation_info": {
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "6647fa3aa7b7130001260a93",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0
+                },
+                "distributor_extra_info": {
+                    "willing_commsion": "不限",
+                    "telephone": "YadMacOkYglZKearpy9Y2g==",
+                    "latest_live_plan": "2026/03/21",
+                    "live_plan": {
+                        "plan_goods_count": 10,
+                        "selected_goods_count": 3,
+                        "reservation_number": "14人",
+                        "live_plan_id": "7615083466682571360",
+                        "start_time": 1774087200000,
+                        "end_time": 1774108800000,
+                        "is_expired": false,
+                        "is_applied": false,
+                        "title": "加州盛夏☀️Salt Stone洗护专场"
+                    },
+                    "is_seller_visibility": 0,
+                    "grade": 2,
+                    "buyer_bar_list": [
+                        {
+                            "title": "加州盛夏☀️Salt Stone洗护专场",
+                            "start_time": 1774087200000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "show_data": 1,
+                "distributor_data_info": {
+                    "sex": "女",
+                    "distribution_category": [
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品",
+                                "海外膳食营养补充食品"
+                            ]
+                        }
+                    ],
+                    "active_fans_rate": 0.9066,
+                    "distribution_live_num": 0,
+                    "avg_sale_amount": "2000-5000",
+                    "avg_sale_amount_value": 3287.6666666666665,
+                    "atv": "500-1000",
+                    "city": "北京",
+                    "content_category": [],
+                    "buyer_tag": [
+                        "1"
+                    ],
+                    "avg_live_viewer_num": "133",
+                    "live_day_cnt": 4,
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "distributor_name": "钱洛洛吖",
+                    "fans_num": 29128,
+                    "red_id": "junichi001",
+                    "buyer_activity": [],
+                    "max_klive_seller_real_income_amt": "2000-5000",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/66302eaacd4c1b029beac154.jpg?imageView2/2/w/80/format/jpg",
+                    "note_engage_median": 0,
+                    "note_base_infos": [
+                        {
+                            "note_id": "69b00a5200000000260317eb",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g2sg31thjfp6rlee05p89tt75ne66rid6ah0?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "cooperate_grass_blogger": false,
+                    "buyer_business_tags": [],
+                    "distributor_id": "6509ef4e000000001603b8c6",
+                    "live_viewer_num": 127,
+                    "cooperative_brand_agmv": "2000-5000",
+                    "bcoo_order_cnt": 0,
+                    "content_categorys": [
+                        "健康养生",
+                        "教程",
+                        "低脂低卡"
+                    ],
+                    "note_read_median_num": 3015,
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "max_online_people_num": 10
+                },
+                "invitation_info": {
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "662532d629e53c000101b002"
+                        }
+                    ],
+                    "invitation_id": 0
+                },
+                "distributor_extra_info": {
+                    "grade": 2,
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "",
+                    "is_seller_visibility": 1
+                },
+                "is_star": false
+            },
+            {
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "atv": "0-100",
+                    "live_day_cnt": 10,
+                    "cooperate_grass_blogger": false,
+                    "distributor_id": "6282fada00000000210248db",
+                    "distribution_live_num": 0,
+                    "cooperative_brand_agmv": "0-100",
+                    "red_id": "4161464316",
+                    "avg_sale_amount_value": 144.56,
+                    "fans_num": 35331,
+                    "buyer_activity": [],
+                    "content_category": [],
+                    "distribution_category": [
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品"
+                            ]
+                        },
+                        {
+                            "first_category": "咖啡/麦片/冲饮",
+                            "second_category": [
+                                "饮料",
+                                "冲饮品/食补粉粉"
+                            ]
+                        },
+                        {
+                            "second_category": [
+                                "养生茶"
+                            ],
+                            "first_category": "传统滋补营养品"
+                        }
+                    ],
+                    "buyer_business_tags": [],
+                    "avg_sale_amount": "100-200",
+                    "buyer_tag": [],
+                    "sex": "女",
+                    "live_viewer_num": 342,
+                    "note_read_median_num": 6023,
+                    "note_base_infos": [
+                        {
+                            "note_id": "69b0068a0000000005030252",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831thmikptm8005ok2vbd8ci6r1f5nkug?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo30sfarenq3g005ok2vbd8ci6rpin4el8?imageView2/2/w/80/format/jpg",
+                    "note_engage_median": 0,
+                    "live_base_info": {
+                        "live_id": "570126532015560163",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31s1oshjn4oeg5ok2vbd8ci6r84ogbd8"
+                    },
+                    "bcoo_order_cnt": 0,
+                    "content_categorys": [
+                        "运动健身",
+                        "自律生活",
+                        "教程",
+                        "低脂低卡"
+                    ],
+                    "max_online_people_num": 15,
+                    "city": "湖北 荆州",
+                    "active_fans_rate": 0.8615,
+                    "max_klive_seller_real_income_amt": "200-500",
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "distributor_name": "元气张张",
+                    "avg_live_viewer_num": "365"
+                },
+                "invitation_info": {
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "66058e9ea7b713000125bed5",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0
+                },
+                "distributor_extra_info": {
+                    "telephone": "dlWlQmwTvW/Ib0istZKntg==",
+                    "is_seller_visibility": 1,
+                    "grade": 1,
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限"
+                }
+            },
+            {
+                "distributor_data_info": {
+                    "active_fans_rate": 0.9474,
+                    "note_engage_median": 0,
+                    "live_viewer_num": 4424,
+                    "note_base_infos": [
+                        {
+                            "note_id": "69b00714000000000601d53e",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g2sg31thiug2plme048od3t41sl0ku3cu36o?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "city": "广东 深圳",
+                    "distribution_category": [
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品",
+                                "海外膳食营养补充食品",
+                                "营养包"
+                            ]
+                        },
+                        {
+                            "first_category": "美容护肤/美体/精油",
+                            "second_category": [
+                                "面部精华",
+                                "面膜",
+                                "乳液/面霜",
+                                "化妆水/爽肤水",
+                                "眼部护理",
+                                "胸部护理",
+                                "手部保养",
+                                "身体护理",
+                                "防晒",
+                                "身体清洁",
+                                "足部护理",
+                                "卸妆",
+                                "T区护理",
+                                "唇部护理"
+                            ]
+                        },
+                        {
+                            "first_category": "洗护清洁剂/卫生巾/纸/香薰",
+                            "second_category": [
+                                "卫生巾/私处护理",
+                                "衣物鞋包清洁剂/护理剂",
+                                "口腔护理",
+                                "身体清洁",
+                                "身体护理",
+                                "纸品/湿巾",
+                                "其他家用清洁品",
+                                "其它"
+                            ]
+                        }
+                    ],
+                    "bcoo_order_cnt": 0,
+                    "content_category": [],
+                    "fans_num": 23917,
+                    "live_base_info": {
+                        "live_id": "570174604242446298",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31svj45njls7g48od3t41sl0kevec8a8"
+                    },
+                    "buyer_business_tags": [],
+                    "distribution_live_num": 0,
+                    "avg_sale_amount_value": 35828.00500000001,
+                    "note_read_median_num": 8080,
+                    "max_klive_seller_real_income_amt": "5w-10w",
+                    "content_categorys": [
+                        "出行旅游",
+                        "生活记录",
+                        "vlog",
+                        "开箱"
+                    ],
+                    "distributor_id": "57f8881e5e87e725ed4d5414",
+                    "distributor_name": "Suteki Yuki",
+                    "avg_live_viewer_num": "4670",
+                    "cooperative_brand_agmv": "1000-2000",
+                    "red_id": "104666414",
+                    "buyer_tag": [
+                        "1",
+                        "5"
+                    ],
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31sb6j50glm0048od3t41sl0kk7hsqho?imageView2/2/w/80/format/jpg",
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "atv": "200-500",
+                    "live_day_cnt": 13,
+                    "avg_sale_amount": "2w-5w",
+                    "buyer_activity": [],
+                    "max_online_people_num": 742,
+                    "sex": "女",
+                    "cooperate_grass_blogger": false
+                },
+                "invitation_info": {
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "product_id": "65d3481383e31c000166e5bd",
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0
+                },
+                "distributor_extra_info": {
+                    "willing_commsion": "不限",
+                    "telephone": "cMSEGDYkhNtm7tUcsFxlFQ==",
+                    "latest_live_plan": "2026/03/13",
+                    "live_plan": {
+                        "end_time": 1773414000000,
+                        "is_expired": false,
+                        "is_applied": false,
+                        "plan_goods_count": 50,
+                        "selected_goods_count": 0,
+                        "reservation_number": "105人",
+                        "live_plan_id": "7615258568200852098",
+                        "title": "春日花花好物",
+                        "start_time": 1773403200000
+                    },
+                    "is_seller_visibility": 0,
+                    "grade": 3,
+                    "buyer_bar_list": [
+                        {
+                            "title": "春日花花好物",
+                            "start_time": 1773403200000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "invitation_info": {
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "67b6c0c1bad6f800141e021d",
+                            "stock": 0
+                        }
+                    ]
+                },
+                "distributor_extra_info": {
+                    "telephone": "",
+                    "is_seller_visibility": 1,
+                    "grade": 3,
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限"
+                },
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "live_viewer_num": 7621,
+                    "buyer_activity": [],
+                    "avg_live_viewer_num": "7621",
+                    "note_read_median_num": 24629,
+                    "bcoo_order_cnt": 0,
+                    "distributor_name": "白鹭饭醉日记",
+                    "active_fans_rate": 0.955,
+                    "buyer_tag": [],
+                    "distributor_id": "58632ca17fc5b866fd21702f",
+                    "content_category": [],
+                    "avg_sale_amount": "2w-5w",
+                    "note_base_infos": [
+                        {
+                            "note_id": "69aec3340000000022038e85",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831tgbaqoml60049077bma2s1f3gghva8?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31j72pgi22a0049077bma2s1fpuicsto?imageView2/2/w/80/format/jpg",
+                    "red_id": "Neinei512",
+                    "atv": "0-100",
+                    "max_klive_seller_real_income_amt": "2w-5w",
+                    "max_online_people_num": 111,
+                    "fans_num": 99255,
+                    "distribution_live_num": 0,
+                    "avg_sale_amount_value": 33960.6,
+                    "content_categorys": [
+                        "美食",
+                        "plog",
+                        "vlog",
+                        "沉浸式"
+                    ],
+                    "sex": "女",
+                    "cooperate_grass_blogger": false,
+                    "cooperative_brand_agmv": "1000-2000",
+                    "live_base_info": {
+                        "live_id": "570115147514180523",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31rnl9t2o240g49077bma2s1fhnhqg60"
+                    },
+                    "buyer_business_tags": [],
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "note_engage_median": 0,
+                    "distribution_category": [
+                        {
+                            "first_category": "酒类",
+                            "second_category": [
+                                "葡萄酒",
+                                "露酒/果酒",
+                                "洋酒",
+                                "啤酒",
+                                "其他酒类"
+                            ]
+                        },
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品"
+                            ]
+                        },
+                        {
+                            "first_category": "女士内衣/男士内衣/家居服",
+                            "second_category": [
+                                "睡衣/家居服套装"
+                            ]
+                        }
+                    ],
+                    "live_day_cnt": 1,
+                    "city": "上海"
+                }
+            },
+            {
+                "distributor_data_info": {
+                    "distributor_id": "628316b6000000002102063c",
+                    "avg_sale_amount": "200-500",
+                    "max_online_people_num": 443,
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/6549ede09df2ed9b390355c5.jpg?imageView2/2/w/80/format/jpg",
+                    "sex": "男",
+                    "buyer_tag": [
+                        "1"
+                    ],
+                    "content_category": [],
+                    "live_day_cnt": 52,
+                    "live_base_info": {
+                        "live_id": "570129714460977192",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g05031rsilporig0g5ok32qr8c1hsfo3lc48"
+                    },
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "fans_num": 21545,
+                    "live_viewer_num": 1949,
+                    "max_klive_seller_real_income_amt": "1000-2000",
+                    "buyer_business_tags": [],
+                    "city": "湖北 武汉",
+                    "avg_live_viewer_num": "12554",
+                    "atv": "200-500",
+                    "content_categorys": [
+                        "美妆",
+                        "时尚",
+                        "甜酷",
+                        "控油",
+                        "氛围感",
+                        "白皮",
+                        "纯欲",
+                        "教程"
+                    ],
+                    "distribution_live_num": 0,
+                    "buyer_activity": [],
+                    "cooperative_brand_agmv": "100-200",
+                    "bcoo_order_cnt": 0,
+                    "distributor_name": "小乔（变美版）",
+                    "distribution_category": [
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品",
+                                "海外膳食营养补充食品"
+                            ]
+                        },
+                        {
+                            "second_category": [
+                                "化妆水/爽肤水",
+                                "眼部护理",
+                                "唇部护理",
+                                "颈部护理",
+                                "手部保养",
+                                "洁面",
+                                "面部精华"
+                            ],
+                            "first_category": "美容护肤/美体/精油"
+                        },
+                        {
+                            "first_category": "洗护清洁剂/卫生巾/纸/香薰",
+                            "second_category": [
+                                "身体清洁"
+                            ]
+                        }
+                    ],
+                    "active_fans_rate": 0.7924,
+                    "note_engage_median": 0,
+                    "cooperate_grass_blogger": false,
+                    "red_id": "5696073906",
+                    "avg_sale_amount_value": 284.19204081632637,
+                    "note_read_median_num": 3002,
+                    "note_base_infos": [
+                        {
+                            "note_cover": "http://sns-img-qn.xhscdn.com/notes_pre_post/1040g3k031tgajdphls305ok32qr8c1hs65enlqo?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 1,
+                            "note_id": "69aebd4a0000000015032162"
+                        }
+                    ]
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "price_method": 1,
+                            "product_id": "6598fa199508f50001e42951",
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "",
+                    "is_seller_visibility": 0,
+                    "grade": 1,
+                    "buyer_bar_list": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_extra_info": {
+                    "grade": 1,
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "78Lxn1KQw0aAZ1RBNXaaSA==",
+                    "is_seller_visibility": 1
+                },
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "active_fans_rate": 0.8589,
+                    "buyer_tag": [],
+                    "atv": "0-100",
+                    "bcoo_order_cnt": 0,
+                    "content_categorys": [
+                        "运动健身",
+                        "健康养生",
+                        "低脂低卡"
+                    ],
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "note_engage_median": 0,
+                    "distribution_live_num": 0,
+                    "red_id": "1807722521",
+                    "cooperate_grass_blogger": false,
+                    "distributor_id": "603e3ed8000000000101c817",
+                    "fans_num": 54161,
+                    "avg_sale_amount": "200-500",
+                    "max_klive_seller_real_income_amt": "1000-2000",
+                    "buyer_business_tags": [],
+                    "sex": "女",
+                    "live_viewer_num": 165,
+                    "note_read_median_num": 2895,
+                    "live_day_cnt": 42,
+                    "live_base_info": {
+                        "live_id": "570100741620313876",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31rarrtdiga705o1u7rc0bi0novd3kag"
+                    },
+                    "max_online_people_num": 16,
+                    "distributor_name": "沙悟空呀｜健康减脂",
+                    "content_category": [],
+                    "buyer_activity": [],
+                    "avg_sale_amount_value": 365.1788235294117,
+                    "cooperative_brand_agmv": "100-200",
+                    "avg_live_viewer_num": "173",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/618a04715cad7d15fd9a5608.jpg?imageView2/2/w/80/format/jpg",
+                    "city": "山东 未知",
+                    "distribution_category": [
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品",
+                                "海外膳食营养补充食品"
+                            ]
+                        },
+                        {
+                            "first_category": "粮油调味/速食/干货/烘焙",
+                            "second_category": [
+                                "食用油/调味油",
+                                "调味品/果酱/沙拉/干副食",
+                                "其他食品",
+                                "米/面粉/杂粮"
+                            ]
+                        },
+                        {
+                            "first_category": "茶",
+                            "second_category": [
+                                "其他茶叶"
+                            ]
+                        }
+                    ],
+                    "note_base_infos": [
+                        {
+                            "note_id": "69adbfb7000000001b015b79",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g2sg31tfbmg8jls705o1u7rc0bi0nqg1j1qo?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ]
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "638d830084c5010001a78d65",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                }
+            },
+            {
+                "distributor_data_info": {
+                    "cooperative_brand_agmv": "0-100",
+                    "note_base_infos": [
+                        {
+                            "note_id": "69afcf0a000000001b01511a",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831thc7bgels005p96hirqmt9hofvdi00?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "bcoo_order_cnt": 0,
+                    "city": "山东 济南",
+                    "active_fans_rate": 0.91,
+                    "note_engage_median": 0,
+                    "live_viewer_num": 2321,
+                    "avg_live_viewer_num": "3522",
+                    "max_online_people_num": 185,
+                    "buyer_business_tags": [],
+                    "avg_sale_amount": "0-100",
+                    "note_read_median_num": 3271,
+                    "live_day_cnt": 66,
+                    "content_category": [],
+                    "fans_num": 6887,
+                    "cooperate_grass_blogger": false,
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31ejrdgkmh0005p96hirqmt9h2ruqlb0?imageView2/2/w/80/format/jpg",
+                    "sex": "女",
+                    "red_id": "8145715390",
+                    "live_base_info": {
+                        "live_id": "570173174949822880",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31t8m3gr4m2eg5p96hirqmt9hirml69o"
+                    },
+                    "distributor_id": "65268cb7000000002a037531",
+                    "buyer_tag": [
+                        "4",
+                        "1",
+                        "6"
+                    ],
+                    "avg_sale_amount_value": 52.752790697674456,
+                    "distributor_name": "朱朱炫饭",
+                    "buyer_activity": [],
+                    "atv": "0-100",
+                    "max_klive_seller_real_income_amt": "200-500",
+                    "content_categorys": [
+                        "美食",
+                        "测评",
+                        "vlog",
+                        "沉浸式"
+                    ],
+                    "distribution_category": [
+                        {
+                            "first_category": "零食/坚果/特产",
+                            "second_category": [
+                                "饼干/膨化",
+                                "牛肉干/猪肉脯/卤味零食",
+                                "蜜饯/枣类/梅/果干/冻干",
+                                "豆干制品/蔬菜干",
+                                "糕点/点心",
+                                "山核桃/坚果/炒货",
+                                "鱿鱼丝/鱼干/海味即食"
+                            ]
+                        },
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品"
+                            ]
+                        },
+                        {
+                            "first_category": "粮油调味/速食/干货/烘焙",
+                            "second_category": [
+                                "其他食品",
+                                "方便粉丝/米线/粥汤速食",
+                                "方便面/拉面/挂面/轻食面速食",
+                                "面点/西式速食"
+                            ]
+                        }
+                    ],
+                    "distribution_live_num": 0
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "68941bb9ff761c0015725ce5",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "willing_commsion": "不限",
+                    "telephone": "+CLbZlsyPZgR/zv2gd2Ydg==",
+                    "is_seller_visibility": 1,
+                    "grade": 1,
+                    "buyer_bar_list": [],
+                    "willing_category": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "invitation_info": {
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "product_id": "64e478e5cf8fbe000194a45c",
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0
+                },
+                "distributor_extra_info": {
+                    "willing_commsion": "不限",
+                    "telephone": "T/fDyGL032avDW0LOlX+DA==",
+                    "latest_live_plan": "2026/03/12",
+                    "live_plan": {
+                        "is_applied": false,
+                        "plan_goods_count": 1,
+                        "selected_goods_count": 85,
+                        "live_plan_id": "7615812129359211862",
+                        "title": "健身",
+                        "start_time": 1773316800000,
+                        "end_time": 1773320400000,
+                        "is_expired": true,
+                        "reservation_number": "未发布预告"
+                    },
+                    "is_seller_visibility": 1,
+                    "grade": 1,
+                    "buyer_bar_list": [
+                        {
+                            "url": "",
+                            "title": "健身",
+                            "start_time": 1773316800000,
+                            "type": 1
+                        }
+                    ],
+                    "willing_category": []
+                },
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "distribution_category": [
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品"
+                            ]
+                        },
+                        {
+                            "first_category": "运动鞋",
+                            "second_category": [
+                                "综合训练鞋/室内健身鞋"
+                            ]
+                        },
+                        {
+                            "first_category": "运动/瑜伽/健身/球迷用品",
+                            "second_category": [
+                                "踏步机/中小型健身器材",
+                                "瑜伽"
+                            ]
+                        }
+                    ],
+                    "active_fans_rate": 0.923,
+                    "red_id": "2292559494",
+                    "distribution_live_num": 0,
+                    "note_base_infos": [
+                        {
+                            "note_id": "",
+                            "note_cover": "",
+                            "note_type": 0
+                        }
+                    ],
+                    "bcoo_order_cnt": 0,
+                    "buyer_business_tags": [],
+                    "distributor_id": "644b3464000000000f0049fc",
+                    "buyer_tag": [
+                        "1"
+                    ],
+                    "avg_sale_amount_value": 134.4257142857143,
+                    "content_categorys": [],
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "sex": "女",
+                    "buyer_activity": [],
+                    "cooperative_brand_agmv": "100-200",
+                    "live_day_cnt": 70,
+                    "live_base_info": {
+                        "live_id": "570175906084506445",
+                        "image_url": "https://xhslive-image.xhscdn.com/live_helper/1040g11031o0l6eblku005p2b6hi3oifsnum1vu8"
+                    },
+                    "max_online_people_num": 56,
+                    "distributor_name": "豆豆有氧塑形运动",
+                    "note_engage_median": 0,
+                    "atv": "0-100",
+                    "content_category": [],
+                    "avg_sale_amount": "100-200",
+                    "avg_live_viewer_num": "1636",
+                    "note_read_median_num": 0,
+                    "cooperate_grass_blogger": false,
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo310ue4onbma005p2b6hi3oifs1bqve3o?imageView2/2/w/80/format/jpg",
+                    "fans_num": 18500,
+                    "live_viewer_num": 1398,
+                    "city": "陕西 西安",
+                    "max_klive_seller_real_income_amt": "500-1000"
+                }
+            },
+            {
+                "distributor_data_info": {
+                    "live_viewer_num": 1263,
+                    "buyer_activity": [],
+                    "max_klive_seller_real_income_amt": "2000-5000",
+                    "note_base_infos": [
+                        {
+                            "note_id": "69ae81ce000000001b016936",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831tg3ghamlm0049spmvs3c9bcpo512k8?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "avg_sale_amount": "2000-5000",
+                    "atv": "200-500",
+                    "bcoo_order_cnt": 0,
+                    "sex": "女",
+                    "fans_num": 39229,
+                    "red_id": "950118362",
+                    "avg_live_viewer_num": "1230",
+                    "avg_sale_amount_value": 2769.4149999999995,
+                    "content_category": [],
+                    "note_engage_median": 0,
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "buyer_business_tags": [],
+                    "city": "陕西 西安",
+                    "active_fans_rate": 0.9322,
+                    "distribution_live_num": 0,
+                    "note_read_median_num": 8339,
+                    "cooperate_grass_blogger": false,
+                    "content_categorys": [
+                        "生活记录",
+                        "vlog"
+                    ],
+                    "max_online_people_num": 30,
+                    "cooperative_brand_agmv": "500-1000",
+                    "live_day_cnt": 4,
+                    "distributor_id": "59dcf8366eea8855cdf3256c",
+                    "distributor_name": "劳拉快跑💨",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31hcvvffj3q0g49spmvs3c9bchfvreso?imageView2/2/w/80/format/jpg",
+                    "distribution_category": [
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品"
+                            ]
+                        },
+                        {
+                            "second_category": [
+                                "电动刮痧仪（非器械）"
+                            ],
+                            "first_category": "保健用品"
+                        },
+                        {
+                            "first_category": "洗护清洁剂/卫生巾/纸/香薰",
+                            "second_category": [
+                                "口腔护理"
+                            ]
+                        }
+                    ],
+                    "buyer_tag": [
+                        "1",
+                        "5",
+                        "6"
+                    ],
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310"
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "68207d8848d4430014f4ff2f"
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "2VAII3ePhNLQZOY/NdRdbQ==",
+                    "is_seller_visibility": 1,
+                    "grade": 1,
+                    "buyer_bar_list": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "active_fans_rate": 0.9316,
+                    "note_read_median_num": 3131,
+                    "live_base_info": {
+                        "live_id": "570178944038338573",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31s4h9kr0m87g5o6eu1f85624rqs8i1o"
+                    },
+                    "max_online_people_num": 47,
+                    "cooperative_brand_agmv": "500-1000",
+                    "bcoo_order_cnt": 0,
+                    "content_categorys": [
+                        "生活记录",
+                        "vlog"
+                    ],
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo30vg23loflu005o6eu1f85624u1vdneg?imageView2/2/w/80/format/jpg",
+                    "city": "重庆",
+                    "note_engage_median": 0,
+                    "atv": "500-1000",
+                    "max_klive_seller_real_income_amt": "1w-2w",
+                    "note_base_infos": [
+                        {
+                            "note_type": 2,
+                            "note_id": "69a828d3000000001a02b39d",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831t9v3ukh68005o6eu1f8562458kc268?imageView2/2/w/540/format/jpg/q/75"
+                        }
+                    ],
+                    "buyer_business_tags": [],
+                    "distribution_category": [
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品",
+                                "海外膳食营养补充食品"
+                            ]
+                        },
+                        {
+                            "first_category": "厨房电器",
+                            "second_category": [
+                                "破壁机",
+                                "豆浆机"
+                            ]
+                        },
+                        {
+                            "first_category": "美容护肤/美体/精油",
+                            "second_category": [
+                                "眼部护理"
+                            ]
+                        }
+                    ],
+                    "buyer_activity": [],
+                    "cooperate_grass_blogger": false,
+                    "distributor_id": "60cef05e0000000020029844",
+                    "distributor_name": "江小闲Veetii",
+                    "content_category": [],
+                    "fans_num": 8217,
+                    "live_viewer_num": 1625,
+                    "live_day_cnt": 7,
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "distribution_live_num": 0,
+                    "avg_sale_amount": "2000-5000",
+                    "red_id": "9543971859",
+                    "buyer_tag": [
+                        "1",
+                        "5",
+                        "6"
+                    ],
+                    "avg_live_viewer_num": "2268",
+                    "avg_sale_amount_value": 4838.757142857144,
+                    "sex": "女"
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "price_method": 1,
+                            "product_id": "66e9e895bad6f800141cee59",
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "grade": 1,
+                    "buyer_bar_list": [
+                        {
+                            "title": "保养抗衰养护 好物底价开团",
+                            "start_time": 1774354500000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "JYtLs+2tZrOC+QvWPkZ2Rw==",
+                    "latest_live_plan": "2026/03/24",
+                    "live_plan": {
+                        "live_plan_id": "7615229564288454692",
+                        "start_time": 1774354500000,
+                        "is_expired": false,
+                        "selected_goods_count": 20,
+                        "title": "保养抗衰养护 好物底价开团",
+                        "end_time": 1774368900000,
+                        "is_applied": false,
+                        "plan_goods_count": 10,
+                        "reservation_number": "16人"
+                    },
+                    "is_seller_visibility": 1
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "distribution_category": [
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品"
+                            ]
+                        },
+                        {
+                            "first_category": "传统滋补营养品",
+                            "second_category": [
+                                "药食同源食品",
+                                "滋补养生原料",
+                                "食疗滋补营养",
+                                "枸杞及其制品",
+                                "其他传统滋补营养品"
+                            ]
+                        },
+                        {
+                            "first_category": "咖啡/麦片/冲饮",
+                            "second_category": [
+                                "液态奶/常温乳制品",
+                                "冲饮品/食补粉粉",
+                                "冲饮谷物/麦片"
+                            ]
+                        }
+                    ],
+                    "avg_sale_amount_value": 0,
+                    "live_day_cnt": 0,
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "max_online_people_num": 0,
+                    "distribution_live_num": 0,
+                    "buyer_activity": [],
+                    "cooperative_brand_agmv": "0-100",
+                    "city": "江苏 南京",
+                    "buyer_business_tags": [],
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "live_viewer_num": 0,
+                    "avg_live_viewer_num": "0",
+                    "content_categorys": [
+                        "美食",
+                        "vlog",
+                        "低脂低卡"
+                    ],
+                    "note_engage_median": 0,
+                    "atv": "0-100",
+                    "bcoo_order_cnt": 0,
+                    "buyer_tag": [
+                        "1",
+                        "7"
+                    ],
+                    "note_base_infos": [
+                        {
+                            "note_id": "69a6cb9e000000002602f3cc",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831t8i7jd7le005n2c9uv444peils7fr0?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "cooperate_grass_blogger": false,
+                    "fans_num": 540630,
+                    "active_fans_rate": 0.7229,
+                    "red_id": "227863451",
+                    "note_read_median_num": 94987,
+                    "distributor_id": "5c4c4fbe000000001002132e",
+                    "content_category": [],
+                    "avg_sale_amount": "0-100",
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "distributor_name": "奶卷金橘",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/5e7e151459546d00011381b1.jpg?imageView2/2/w/80/format/jpg",
+                    "sex": "女"
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "product_id": "638d728684c5010001a4556f",
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "z8g3tcqWHT3bi9Z72ntSkg==",
+                    "is_seller_visibility": 1,
+                    "grade": 2,
+                    "buyer_bar_list": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/6429824696f1673aea68edc2.jpg?imageView2/2/w/80/format/jpg",
+                    "note_base_infos": [
+                        {
+                            "note_id": "698886db000000001a028377",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831sb0k6qi5s005nvif6b088oav5b0rcg?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "distributor_id": "5ff27996000000000100230a",
+                    "distributor_name": "赵唯伊|养生主理人",
+                    "note_engage_median": 0,
+                    "content_categorys": [
+                        "美食",
+                        "低脂低卡"
+                    ],
+                    "content_category": [],
+                    "distribution_category": [
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "海外膳食营养补充食品",
+                                "普通膳食营养食品",
+                                "蓝帽子保健食品"
+                            ]
+                        },
+                        {
+                            "first_category": "粮油调味/速食/干货/烘焙",
+                            "second_category": [
+                                "调味品/果酱/沙拉/干副食",
+                                "面点/西式速食",
+                                "食用油/调味油",
+                                "南北干货/肉类干货",
+                                "其他食品",
+                                "火锅/肉类/米饭类速食",
+                                "方便面/拉面/挂面/轻食面速食",
+                                "米/面粉/杂粮",
+                                "玉米"
+                            ]
+                        },
+                        {
+                            "first_category": "咖啡/麦片/冲饮",
+                            "second_category": [
+                                "饮料",
+                                "咖啡",
+                                "冲饮品/食补粉粉",
+                                "冲饮谷物/麦片",
+                                "低温乳制品",
+                                "奶酪/奶制品",
+                                "鲜食饮品",
+                                "液态奶/常温乳制品"
+                            ]
+                        }
+                    ],
+                    "red_id": "Zhao20230402",
+                    "fans_num": 136346,
+                    "note_read_median_num": 0,
+                    "atv": "500-1000",
+                    "max_klive_seller_real_income_amt": "5w-10w",
+                    "bcoo_order_cnt": 0,
+                    "max_online_people_num": 82,
+                    "cooperate_grass_blogger": false,
+                    "sex": "女",
+                    "active_fans_rate": 0.8096,
+                    "live_viewer_num": 1830,
+                    "avg_sale_amount": "1w-2w",
+                    "buyer_activity": [],
+                    "cooperative_brand_agmv": "500-1000",
+                    "buyer_tag": [
+                        "1",
+                        "5"
+                    ],
+                    "avg_sale_amount_value": 17440.571016949172,
+                    "live_day_cnt": 59,
+                    "city": "广东 深圳",
+                    "distribution_live_num": 0,
+                    "avg_live_viewer_num": "1821",
+                    "live_base_info": {
+                        "live_id": "570177230665217350",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g05031s5rpdqdls005nvif6b088oatqccnvo"
+                    },
+                    "buyer_business_tags": [],
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310"
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "64400e3188018f000111d886",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "is_seller_visibility": 1,
+                    "grade": 3,
+                    "buyer_bar_list": [
+                        {
+                            "title": "11",
+                            "start_time": 1773993600000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "QBG6U7afCvpFwM3JrMWg9Q==",
+                    "latest_live_plan": "2026/03/20",
+                    "live_plan": {
+                        "live_plan_id": "7610346998187861436",
+                        "is_expired": false,
+                        "is_applied": false,
+                        "reservation_number": "67人",
+                        "title": "11",
+                        "start_time": 1773993600000,
+                        "end_time": 1774022400000,
+                        "plan_goods_count": 166,
+                        "selected_goods_count": 0
+                    }
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "avg_live_viewer_num": "3187",
+                    "atv": "200-500",
+                    "bcoo_order_cnt": 0,
+                    "max_online_people_num": 209,
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "sex": "男",
+                    "content_category": [],
+                    "avg_sale_amount_value": 617.9317021276597,
+                    "max_klive_seller_real_income_amt": "2000-5000",
+                    "note_base_infos": [
+                        {
+                            "note_type": 2,
+                            "note_id": "699e7a7300000000220319b9",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831t0elsvp5a005o8t14885n2p311jbjo?imageView2/2/w/540/format/jpg/q/75"
+                        }
+                    ],
+                    "cooperate_grass_blogger": false,
+                    "content_categorys": [
+                        "生活记录",
+                        "运动健身"
+                    ],
+                    "distribution_category": [
+                        {
+                            "second_category": [
+                                "综合训练鞋/室内健身鞋"
+                            ],
+                            "first_category": "运动鞋"
+                        },
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品"
+                            ]
+                        },
+                        {
+                            "first_category": "零食/坚果/特产",
+                            "second_category": [
+                                "糕点/点心",
+                                "山核桃/坚果/炒货",
+                                "牛肉干/猪肉脯/卤味零食",
+                                "饼干/膨化"
+                            ]
+                        }
+                    ],
+                    "avg_sale_amount": "500-1000",
+                    "note_engage_median": 0,
+                    "red_id": "2612963395",
+                    "buyer_tag": [
+                        "6"
+                    ],
+                    "note_read_median_num": 960,
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/647364b6a5484b71d6d72d5e.jpg?imageView2/2/w/80/format/jpg",
+                    "fans_num": 67272,
+                    "live_viewer_num": 3421,
+                    "buyer_activity": [],
+                    "city": "黑龙江 哈尔滨",
+                    "active_fans_rate": 0.8631,
+                    "distributor_name": "小铭力量塑形",
+                    "live_base_info": {
+                        "live_id": "570178136447491928",
+                        "image_url": "https://xhslive-image.xhscdn.com/live_helper/1040g11031t0pmrjql6005o8t14885n2pg2pjfu8"
+                    },
+                    "distribution_live_num": 0,
+                    "cooperative_brand_agmv": "200-500",
+                    "buyer_business_tags": [],
+                    "distributor_id": "611d0910000000002002dc59",
+                    "live_day_cnt": 29
+                },
+                "invitation_info": {
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "638d78ef84c5010001a59610",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0
+                },
+                "distributor_extra_info": {
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "Rmv5UTM9fB0ZXchyVlssvA==",
+                    "is_seller_visibility": 0,
+                    "grade": 1
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_extra_info": {
+                    "live_plan": {
+                        "live_plan_id": "7615571542475535696",
+                        "title": "小卖部营业中",
+                        "start_time": 1773318360000,
+                        "end_time": 1773325560000,
+                        "is_expired": false,
+                        "is_applied": false,
+                        "plan_goods_count": 50,
+                        "selected_goods_count": 28,
+                        "reservation_number": "未发布预告"
+                    },
+                    "is_seller_visibility": 1,
+                    "grade": 2,
+                    "buyer_bar_list": [
+                        {
+                            "title": "小卖部营业中",
+                            "start_time": 1773318360000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "qUjRJclx79xkrhPUv3nchg==",
+                    "latest_live_plan": "2026/03/12"
+                },
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "distribution_category": [
+                        {
+                            "first_category": "咖啡/麦片/冲饮",
+                            "second_category": [
+                                "冲饮品/食补粉粉",
+                                "饮料",
+                                "咖啡",
+                                "鲜食饮品",
+                                "液态奶/常温乳制品",
+                                "低温乳制品",
+                                "冲饮谷物/麦片"
+                            ]
+                        },
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品",
+                                "海外膳食营养补充食品"
+                            ]
+                        },
+                        {
+                            "second_category": [
+                                "养生茶",
+                                "滋补养生原料",
+                                "功能性饮料"
+                            ],
+                            "first_category": "传统滋补营养品"
+                        }
+                    ],
+                    "note_engage_median": 0,
+                    "atv": "100-200",
+                    "city": "广东 佛山",
+                    "active_fans_rate": 0.7166,
+                    "red_id": "yangyu940731",
+                    "live_day_cnt": 45,
+                    "max_online_people_num": 14,
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31pn8gsd2ku005pc5kkomuad3a9ubk88?imageView2/2/w/80/format/jpg",
+                    "cooperative_brand_agmv": "100-200",
+                    "bcoo_order_cnt": 0,
+                    "distributor_name": "一只杨",
+                    "fans_num": 8888,
+                    "buyer_activity": [],
+                    "avg_live_viewer_num": "796",
+                    "live_viewer_num": 739,
+                    "avg_sale_amount": "500-1000",
+                    "buyer_tag": [
+                        "4",
+                        "1"
+                    ],
+                    "live_base_info": {
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g05031rff5pd3ng005pc5kkomuad3hljnff8",
+                        "live_id": "570180321900918541"
+                    },
+                    "buyer_business_tags": [],
+                    "sex": "男",
+                    "distribution_live_num": 0,
+                    "avg_sale_amount_value": 903.0325000000006,
+                    "max_klive_seller_real_income_amt": "2000-5000",
+                    "cooperate_grass_blogger": false,
+                    "content_categorys": [
+                        "运动健身",
+                        "职场生活",
+                        "开箱",
+                        "测评",
+                        "沉浸式",
+                        "眼部护理",
+                        "韩系",
+                        "低脂低卡"
+                    ],
+                    "distributor_id": "6585a531000000001b0329a3",
+                    "content_category": [],
+                    "note_read_median_num": 436,
+                    "note_base_infos": [
+                        {
+                            "note_id": "69ad0e04000000001a028420",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831telt4855m005pc5kkomuad3mtrnsg0?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310"
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "product_id": "67afa855bad6f800141df63b",
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                }
+            },
+            {
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "city": "广东 广州",
+                    "avg_sale_amount": "200w-500w",
+                    "cooperative_brand_agmv": "5w-10w",
+                    "max_online_people_num": 1755,
+                    "live_day_cnt": 7,
+                    "cooperate_grass_blogger": false,
+                    "buyer_business_tags": [],
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "distributor_id": "5853b8e26a6a6927bf7788dc",
+                    "content_category": [],
+                    "fans_num": 636022,
+                    "live_viewer_num": 34764,
+                    "buyer_activity": [],
+                    "live_base_info": {
+                        "image_url": "https://xhslive-image.xhscdn.com/live_helper/1040g11031tdakljk5a0048vbkrse526s0tuiiio",
+                        "live_id": "570175564899884275"
+                    },
+                    "distributor_name": "Lingling",
+                    "distribution_category": [
+                        {
+                            "first_category": "美容护肤/美体/精油",
+                            "second_category": [
+                                "面膜",
+                                "面部精华",
+                                "乳液/面霜",
+                                "面部护理套装",
+                                "眼部护理",
+                                "手部保养",
+                                "防晒",
+                                "化妆水/爽肤水",
+                                "唇部护理",
+                                "卸妆",
+                                "精油芳疗",
+                                "洁面",
+                                "身体护理",
+                                "身体清洁"
+                            ]
+                        },
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品",
+                                "蓝帽子保健食品",
+                                "海外膳食营养补充食品"
+                            ]
+                        },
+                        {
+                            "first_category": "零食/坚果/特产",
+                            "second_category": [
+                                "山核桃/坚果/炒货",
+                                "糕点/点心",
+                                "饼干/膨化",
+                                "巧克力",
+                                "鱿鱼丝/鱼干/海味即食",
+                                "蜜饯/枣类/梅/果干/冻干",
+                                "牛肉干/猪肉脯/卤味零食",
+                                "其它"
+                            ]
+                        }
+                    ],
+                    "distribution_live_num": 0,
+                    "note_base_infos": [
+                        {
+                            "note_id": "69af9cb50000000015031bbb",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831th5ti8dls0048vbkrse526s868oej8?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "active_fans_rate": 0.7409,
+                    "red_id": "495286282",
+                    "avg_live_viewer_num": "32828",
+                    "atv": "500-1000",
+                    "bcoo_order_cnt": 0,
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/5fbb5d1ca928170001e1a722.jpg?imageView2/2/w/80/format/jpg",
+                    "max_klive_seller_real_income_amt": "500w以上",
+                    "sex": "女",
+                    "note_engage_median": 0,
+                    "buyer_tag": [
+                        "1",
+                        "5",
+                        "6"
+                    ],
+                    "avg_sale_amount_value": 3321673.312857143,
+                    "note_read_median_num": 12548,
+                    "content_categorys": [
+                        "护肤",
+                        "抗老",
+                        "vlog"
+                    ]
+                },
+                "invitation_info": {
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "category_id": 1,
+                            "price": 550000,
+                            "price_method": 2,
+                            "product_id": "613e99f38aad0e000196471d",
+                            "stock": 0
+                        },
+                        {
+                            "category_id": 2,
+                            "price": 4500000,
+                            "price_method": 2,
+                            "product_id": "62f61d83b8ab3b0001113996",
+                            "stock": 0
+                        },
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "638d707484c5010001a3edf4",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0
+                },
+                "distributor_extra_info": {
+                    "live_plan": {
+                        "end_time": 1773496800000,
+                        "reservation_number": "1986人",
+                        "live_plan_id": "7610722597372785688",
+                        "title": "3.8福利继续！",
+                        "start_time": 1773464400000,
+                        "selected_goods_count": 85,
+                        "is_expired": false,
+                        "is_applied": false,
+                        "plan_goods_count": 100
+                    },
+                    "is_seller_visibility": 1,
+                    "grade": 7,
+                    "buyer_bar_list": [
+                        {
+                            "title": "3.8福利继续！",
+                            "start_time": 1773464400000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "pNf+lpJQf+HEcq93E1OzMg==",
+                    "latest_live_plan": "2026/03/14"
+                }
+            },
+            {
+                "distributor_data_info": {
+                    "sex": "女",
+                    "buyer_tag": [
+                        "5",
+                        "6"
+                    ],
+                    "cooperate_grass_blogger": false,
+                    "bcoo_order_cnt": 0,
+                    "content_categorys": [
+                        "美食",
+                        "婚嫁",
+                        "plog",
+                        "vlog",
+                        "开箱"
+                    ],
+                    "city": "北海道 俱知安町",
+                    "avg_sale_amount_value": 119631.84312499997,
+                    "max_klive_seller_real_income_amt": "50w-100w",
+                    "live_day_cnt": 10,
+                    "avg_sale_amount": "10w-20w",
+                    "cooperative_brand_agmv": "2w-5w",
+                    "note_base_infos": [
+                        {
+                            "note_id": "69aec1cd00000000220200d9",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/notes_pre_post/1040g3k831tgb1i575e705nqbor1g8fp6qal799o?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 1
+                        }
+                    ],
+                    "max_online_people_num": 657,
+                    "buyer_business_tags": [],
+                    "content_category": [],
+                    "fans_num": 412833,
+                    "note_engage_median": 0,
+                    "live_viewer_num": 24421,
+                    "avg_live_viewer_num": "22488",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1000g2jo2nc471tijs0005nqbor1g8fp6rvj7fag?imageView2/2/w/80/format/jpg",
+                    "distribution_category": [
+                        {
+                            "first_category": "女装/女士精品",
+                            "second_category": [
+                                "羊绒衫",
+                                "毛衣",
+                                "背心吊带",
+                                "毛针织衫"
+                            ]
+                        },
+                        {
+                            "first_category": "保健食品/膳食营养补充食品",
+                            "second_category": [
+                                "普通膳食营养食品",
+                                "海外膳食营养补充食品"
+                            ]
+                        },
+                        {
+                            "first_category": "男装",
+                            "second_category": [
+                                "羊绒衫"
+                            ]
+                        }
+                    ],
+                    "distribution_live_num": 0,
+                    "live_base_info": {
+                        "live_id": "570164466254569082",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31t3fc57q5c705nqbor1g8fp6v9p40m8"
+                    },
+                    "distributor_id": "5f4bc6c30000000001003f26",
+                    "active_fans_rate": 0.7496,
+                    "atv": "1000-2000",
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "distributor_name": "CW超超_超能吃",
+                    "red_id": "730146256",
+                    "buyer_activity": [],
+                    "note_read_median_num": 89209
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "638d80d084c5010001a71fd8",
+                            "stock": 0,
+                            "category_id": 3
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "ZjXCF8D9aYjM8jKdGzWCDQ==",
+                    "is_seller_visibility": 0,
+                    "grade": 4,
+                    "buyer_bar_list": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "max_online_people_num": 0,
+                    "active_fans_rate": 0.8653,
+                    "live_day_cnt": 0,
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "buyer_business_tags": [],
+                    "content_category": [],
+                    "distribution_category": [
+                        {
+                            "second_category": [
+                                "普通膳食营养食品"
+                            ],
+                            "first_category": "保健食品/膳食营养补充食品"
+                        },
+                        {
+                            "first_category": "洗护清洁剂/卫生巾/纸/香薰",
+                            "second_category": [
+                                "纸品/湿巾"
+                            ]
+                        }
+                    ],
+                    "atv": "0-100",
+                    "content_categorys": [
+                        "美食",
+                        "生活记录",
+                        "vlog"
+                    ],
+                    "distribution_live_num": 0,
+                    "red_id": "9527882844",
+                    "cooperative_brand_agmv": "0-100",
+                    "bcoo_order_cnt": 0,
+                    "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310",
+                    "sex": "女",
+                    "buyer_tag": [],
+                    "cooperate_grass_blogger": false,
+                    "note_read_median_num": 143897,
+                    "distributor_name": "菲姐亮哥五口之家",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo315h4v5cigo005o2c3ufgbggrqck5kgg?imageView2/2/w/80/format/jpg",
+                    "avg_sale_amount": "0-100",
+                    "live_viewer_num": 0,
+                    "buyer_activity": [],
+                    "avg_live_viewer_num": "0",
+                    "avg_sale_amount_value": 0,
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "note_base_infos": [
+                        {
+                            "note_id": "69af1dfe00000000220314c1",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831tgmivhd6e005o2c3ufgbggrlophdc8?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "city": "安徽 合肥",
+                    "fans_num": 156055,
+                    "note_engage_median": 0,
+                    "distributor_id": "604c1f9f000000000101c21b"
+                },
+                "invitation_info": {
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "66d52027220652001510322a",
+                            "stock": 0,
+                            "category_id": 3
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0
+                },
+                "distributor_extra_info": {
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "nwPgL0nma552EuEICVkx+g==",
+                    "is_seller_visibility": 1,
+                    "grade": 1,
+                    "buyer_bar_list": []
+                },
+                "is_star": false,
+                "show_data": 1
+            }
+        ],
+        "total": 500,
+        "page_total": 500,
+        "seed": 0,
+        "req_id": "78cc9503-689c-43e3-91bc-3ceb596f0310"
+    }
+}

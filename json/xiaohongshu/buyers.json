@@ -1,0 +1,1832 @@
+{
+    "code": 0,
+    "success": true,
+    "msg": "成功",
+    "data": {
+        "distributor_info_list": [
+            {
+                "distributor_data_info": {
+                    "buyer_activity": [],
+                    "note_read_median_num": 25010,
+                    "atv": "200-500",
+                    "bcoo_order_cnt": 0,
+                    "buyer_business_tags": [],
+                    "distributor_name": "是曼曼呀",
+                    "city": "上海",
+                    "avg_sale_amount": "2w-5w",
+                    "note_base_infos": [
+                        {
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g2sg31thijpnd5m705pgbkhklr6u56icsc6g?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2,
+                            "note_id": "69b0055b0000000006032dd3"
+                        }
+                    ],
+                    "cooperate_grass_blogger": false,
+                    "distribution_live_num": 0,
+                    "buyer_tag": [
+                        "1",
+                        "5",
+                        "6"
+                    ],
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31a1c6i8mne005pgbkhklr6u5a6tifv8?imageView2/2/w/80/format/jpg",
+                    "sex": "男",
+                    "max_klive_seller_real_income_amt": "10w-20w",
+                    "live_day_cnt": 13,
+                    "avg_sale_amount_value": 39938.97307692306,
+                    "cooperative_brand_agmv": "2000-5000",
+                    "live_base_info": {
+                        "live_id": "570175314153442148",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g05031t1i1uco620g5pgbkhklr6u5s5rq9bg"
+                    },
+                    "distributor_id": "660ba4690000000017019bc5",
+                    "content_category": [],
+                    "active_fans_rate": 0.994,
+                    "note_engage_median": 0,
+                    "avg_live_viewer_num": "6310",
+                    "fans_num": 13128,
+                    "red_id": "mandysun0910",
+                    "max_online_people_num": 171,
+                    "live_viewer_num": 5226,
+                    "distribution_category": [
+                        {
+                            "first_category": "女装/女士精品",
+                            "second_category": [
+                                "半身裙",
+                                "毛针织衫",
+                                "皮衣",
+                                "T恤",
+                                "套装/学生校服/工作制服",
+                                "风衣",
+                                "毛衣",
+                                "短外套",
+                                "裤子",
+                                "衬衫",
+                                "皮草",
+                                "连衣裙",
+                                "牛仔裤",
+                                "马夹",
+                                "棉衣/棉服",
+                                "毛呢外套",
+                                "羽绒服",
+                                "背心吊带",
+                                "卫衣/绒衫"
+                            ]
+                        },
+                        {
+                            "first_category": "女鞋",
+                            "second_category": [
+                                "时装单鞋",
+                                "靴子",
+                                "休闲鞋"
+                            ]
+                        },
+                        {
+                            "first_category": "女士内衣/男士内衣/家居服",
+                            "second_category": [
+                                "短袜/打底袜/丝袜/美腿袜",
+                                "吊带/背心/T恤",
+                                "女士内裤（不含男士）"
+                            ]
+                        }
+                    ],
+                    "content_categorys": [
+                        "时尚",
+                        "氛围感",
+                        "韩系",
+                        "ootd"
+                    ],
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62"
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "6949ed528706c00014e7b792",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "willing_commsion": "不限",
+                    "telephone": "g3qX7r0HAN9qTWpYQaEutQ==",
+                    "latest_live_plan": "2026/03/14",
+                    "live_plan": {
+                        "title": "春夏新款 本周搭配第一波合集",
+                        "is_applied": false,
+                        "plan_goods_count": 0,
+                        "live_plan_id": "7615207032803276935",
+                        "end_time": 1773446400000,
+                        "is_expired": false,
+                        "selected_goods_count": 0,
+                        "reservation_number": "89人",
+                        "start_time": 1773446400000
+                    },
+                    "is_seller_visibility": 1,
+                    "grade": 3,
+                    "buyer_bar_list": [
+                        {
+                            "title": "春夏新款 本周搭配第一波合集",
+                            "start_time": 1773446400000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "red_id": "generalsimply",
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "max_online_people_num": 0,
+                    "avg_sale_amount": "0-100",
+                    "content_category": [],
+                    "active_fans_rate": 0.9137,
+                    "buyer_business_tags": [],
+                    "distributor_id": "601face70000000001006797",
+                    "note_base_infos": [
+                        {
+                            "note_type": 1,
+                            "note_id": "69ad2812000000001b01c9c3",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/notes_pre_post/1040g3k031tepbii8m2005o0vljjg8psn0be8nl8?imageView2/2/w/540/format/jpg/q/75"
+                        }
+                    ],
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/601fadd19afeacef8cdfede9.jpg?imageView2/2/w/80/format/jpg",
+                    "avg_live_viewer_num": "0",
+                    "atv": "0-100",
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "bcoo_order_cnt": 0,
+                    "distribution_category": [],
+                    "note_engage_median": 0,
+                    "distribution_live_num": 0,
+                    "buyer_activity": [],
+                    "cooperative_brand_agmv": "0-100",
+                    "cooperate_grass_blogger": false,
+                    "content_categorys": [
+                        "时尚"
+                    ],
+                    "live_viewer_num": 0,
+                    "sex": "女",
+                    "city": "浙江 丽水",
+                    "buyer_tag": [
+                        "7"
+                    ],
+                    "note_read_median_num": 20218,
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "distributor_name": "知事-",
+                    "avg_sale_amount_value": 0,
+                    "live_day_cnt": 0,
+                    "fans_num": 54859
+                },
+                "invitation_info": {
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 0,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "is_seller_visibility": 0,
+                    "buyer_bar_list": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "fans_num": 50648,
+                    "live_day_cnt": 17,
+                    "cooperate_grass_blogger": false,
+                    "content_category": [],
+                    "distribution_live_num": 0,
+                    "red_id": "272599991",
+                    "note_read_median_num": 8341,
+                    "atv": "500-1000",
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "distribution_category": [
+                        {
+                            "first_category": "女装/女士精品",
+                            "second_category": [
+                                "短外套",
+                                "毛呢外套",
+                                "毛针织衫",
+                                "牛仔裤",
+                                "裤子",
+                                "毛衣",
+                                "大衣",
+                                "羽绒服",
+                                "皮衣",
+                                "皮草",
+                                "半身裙",
+                                "棉衣/棉服",
+                                "马夹",
+                                "T恤",
+                                "风衣",
+                                "卫衣/绒衫",
+                                "派克服",
+                                "背心吊带",
+                                "衬衫",
+                                "真丝上装"
+                            ]
+                        },
+                        {
+                            "first_category": "女鞋",
+                            "second_category": [
+                                "靴子",
+                                "休闲鞋",
+                                "时尚雪地靴"
+                            ]
+                        },
+                        {
+                            "second_category": [
+                                "女士包袋",
+                                "手提包",
+                                "单肩包",
+                                "斜挎包"
+                            ],
+                            "first_category": "箱包皮具/热销女包/男包"
+                        }
+                    ],
+                    "note_engage_median": 0,
+                    "buyer_activity": [],
+                    "cooperative_brand_agmv": "2000-5000",
+                    "distributor_id": "5a8e093011be10389784002d",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/605762e7076e15e76a7173a1.jpg?imageView2/2/w/80/format/jpg",
+                    "max_klive_seller_real_income_amt": "20w-50w",
+                    "bcoo_order_cnt": 0,
+                    "active_fans_rate": 0.8394,
+                    "avg_sale_amount_value": 145086.36944444446,
+                    "note_base_infos": [
+                        {
+                            "note_id": "69b0290b000000001b01edb7",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g2sg31thkhje5lsig4a1lqc4j001dd0k2j40?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "buyer_business_tags": [],
+                    "content_categorys": [
+                        "时尚",
+                        "职场生活",
+                        "氛围感",
+                        "合集",
+                        "韩系",
+                        "ootd",
+                        "开箱"
+                    ],
+                    "distributor_name": "piaopiaosu00",
+                    "sex": "女",
+                    "live_viewer_num": 9528,
+                    "avg_sale_amount": "10w-20w",
+                    "avg_live_viewer_num": "9852",
+                    "live_base_info": {
+                        "live_id": "570175831254542523",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31t9kidsalk804a1lqc4j001duul4tfo"
+                    },
+                    "city": "浙江 宁波",
+                    "buyer_tag": [
+                        "1",
+                        "5",
+                        "6"
+                    ],
+                    "max_online_people_num": 176
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "638d7e0b84c5010001a69589",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "live_plan": {
+                        "is_expired": false,
+                        "is_applied": false,
+                        "live_plan_id": "7613445580902491630",
+                        "title": "早春新款大上新💐不定时抽半价",
+                        "start_time": 1773219600000,
+                        "end_time": 1773248400000,
+                        "plan_goods_count": 120,
+                        "selected_goods_count": 120,
+                        "reservation_number": "470人"
+                    },
+                    "is_seller_visibility": 0,
+                    "grade": 3,
+                    "buyer_bar_list": [
+                        {
+                            "title": "早春新款大上新💐不定时抽半价",
+                            "start_time": 1773219600000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "YzHi1N8LGt8WZXTEvfWZ/w==",
+                    "latest_live_plan": "2026/03/11"
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_extra_info": {
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "4gvB+FTRSELQXcHaq8JkTg==",
+                    "is_seller_visibility": 1,
+                    "grade": 1,
+                    "buyer_bar_list": []
+                },
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "city": "浙江 杭州",
+                    "content_category": [],
+                    "red_id": "ppi0422",
+                    "atv": "0-100",
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "cooperate_grass_blogger": false,
+                    "bcoo_order_cnt": 0,
+                    "distribution_category": [],
+                    "avg_sale_amount": "0-100",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/6331c3624cee3bcf992bb8cd.jpg?imageView2/2/w/80/format/jpg",
+                    "buyer_activity": [],
+                    "distributor_name": "pea",
+                    "avg_sale_amount_value": 0,
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "live_viewer_num": 0,
+                    "distribution_live_num": 0,
+                    "cooperative_brand_agmv": "0-100",
+                    "note_base_infos": [
+                        {
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831tefami15s0049viddckfohb53ssn1g?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 1,
+                            "note_id": "69acd7b4000000001a01db31"
+                        }
+                    ],
+                    "content_categorys": [
+                        "时尚",
+                        "生活记录"
+                    ],
+                    "note_engage_median": 0,
+                    "avg_live_viewer_num": "0",
+                    "note_read_median_num": 5043,
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "buyer_business_tags": [],
+                    "sex": "女",
+                    "fans_num": 18989,
+                    "buyer_tag": [
+                        "7"
+                    ],
+                    "max_online_people_num": 0,
+                    "distributor_id": "5a095947e8ac2b0b5013e22b",
+                    "active_fans_rate": 0.8712,
+                    "live_day_cnt": 0
+                },
+                "invitation_info": {
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "677caef5bad6f800141db4b8",
+                            "stock": 0,
+                            "category_id": 3
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0
+                }
+            },
+            {
+                "distributor_extra_info": {
+                    "willing_commsion": "不限",
+                    "telephone": "",
+                    "is_seller_visibility": 1,
+                    "grade": 1,
+                    "buyer_bar_list": [],
+                    "willing_category": []
+                },
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo30p94ahj93q0g5nv416kg9d2001aqei8?imageView2/2/w/80/format/jpg",
+                    "red_id": "1037245397",
+                    "note_base_infos": [
+                        {
+                            "note_id": "69b0200c00000000220316a0",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831thl8hhq5e005nv416kg9d20itrf7c0?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "content_categorys": [
+                        "时尚",
+                        "职场生活",
+                        "氛围感",
+                        "合集",
+                        "vlog",
+                        "韩系",
+                        "ootd",
+                        "开箱"
+                    ],
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "sex": "女",
+                    "buyer_activity": [],
+                    "avg_sale_amount_value": 0,
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "cooperate_grass_blogger": false,
+                    "max_online_people_num": 0,
+                    "active_fans_rate": 0.8719,
+                    "distribution_live_num": 0,
+                    "atv": "0-100",
+                    "distribution_category": [],
+                    "avg_live_viewer_num": "0",
+                    "cooperative_brand_agmv": "0-100",
+                    "live_day_cnt": 0,
+                    "avg_sale_amount": "0-100",
+                    "buyer_business_tags": [],
+                    "distributor_name": "菜菜头",
+                    "live_viewer_num": 0,
+                    "fans_num": 35272,
+                    "note_engage_median": 0,
+                    "distributor_id": "5fe409a9000000000100b440",
+                    "city": "上海",
+                    "note_read_median_num": 3454,
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "bcoo_order_cnt": 0,
+                    "content_category": [],
+                    "buyer_tag": [
+                        "7"
+                    ]
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "6862240748d4430014f5698f",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                }
+            },
+            {
+                "distributor_data_info": {
+                    "sex": "男",
+                    "avg_sale_amount_value": 7142.263999999997,
+                    "atv": "0-100",
+                    "cooperate_grass_blogger": false,
+                    "avg_sale_amount": "5000-1w",
+                    "avg_live_viewer_num": "3239",
+                    "cooperative_brand_agmv": "5000-1w",
+                    "live_day_cnt": 6,
+                    "note_base_infos": [
+                        {
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g2sg31tc9cautm87g5o6b9ui092ebgd22g0o?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2,
+                            "note_id": "69ab9a35000000001a02e644"
+                        }
+                    ],
+                    "live_viewer_num": 2494,
+                    "buyer_tag": [],
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "distributor_name": "小红薯69AFC716",
+                    "fans_num": 1456,
+                    "active_fans_rate": 0.9059,
+                    "content_categorys": [
+                        "美妆"
+                    ],
+                    "city": "安徽 阜阳",
+                    "distribution_category": [
+                        {
+                            "first_category": "女装/女士精品",
+                            "second_category": [
+                                "短外套",
+                                "半身裙"
+                            ]
+                        },
+                        {
+                            "first_category": "女士内衣/男士内衣/家居服",
+                            "second_category": [
+                                "短袜/打底袜/丝袜/美腿袜"
+                            ]
+                        }
+                    ],
+                    "note_engage_median": 0,
+                    "note_read_median_num": 11,
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/645b800677c97ef1a2abc7e0.jpg?imageView2/2/w/80/format/jpg",
+                    "distribution_live_num": 0,
+                    "red_id": "27200845343",
+                    "buyer_activity": [],
+                    "max_klive_seller_real_income_amt": "1w-2w",
+                    "max_online_people_num": 32,
+                    "distributor_id": "60cb4fa400000000010089cb",
+                    "content_category": [],
+                    "bcoo_order_cnt": 0,
+                    "buyer_business_tags": []
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "price_method": 1,
+                            "product_id": "694fa06548d4430014f6e8a5",
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "is_seller_visibility": 0,
+                    "grade": 1,
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": ""
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "note_engage_median": 0,
+                    "avg_live_viewer_num": "0",
+                    "sex": "女",
+                    "content_category": [],
+                    "live_day_cnt": 0,
+                    "distributor_id": "5bb98dc9db2e604fcd9a6f42",
+                    "avg_sale_amount": "0-100",
+                    "atv": "0-100",
+                    "cooperate_grass_blogger": false,
+                    "bcoo_order_cnt": 0,
+                    "max_online_people_num": 0,
+                    "buyer_business_tags": [],
+                    "distributor_name": "泱泱",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/63777396565747ca2c7052a3.jpg?imageView2/2/w/80/format/jpg",
+                    "live_viewer_num": 0,
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "fans_num": 57828,
+                    "buyer_tag": [
+                        "7"
+                    ],
+                    "cooperative_brand_agmv": "0-100",
+                    "note_base_infos": [
+                        {
+                            "note_id": "69ad579e000000002801eae1",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g2sg31teuijv3m8lg4bbhun6sirq2u5dfos0?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "city": "江苏 徐州",
+                    "distribution_live_num": 0,
+                    "avg_sale_amount_value": 0,
+                    "buyer_activity": [],
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "distribution_category": [],
+                    "active_fans_rate": 0.8408,
+                    "red_id": "538273623",
+                    "note_read_median_num": 3797,
+                    "content_categorys": [
+                        "时尚",
+                        "韩系",
+                        "教程"
+                    ]
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "6777d7b100058200148fb5ef",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "telephone": "",
+                    "is_seller_visibility": 0,
+                    "grade": 1,
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限"
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "live_day_cnt": 0,
+                    "buyer_business_tags": [],
+                    "content_category": [],
+                    "live_viewer_num": 0,
+                    "atv": "0-100",
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "active_fans_rate": 0.8329,
+                    "note_read_median_num": 22419,
+                    "note_base_infos": [
+                        {
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831t5s0i7hl80040t3sks6s18opuvgil8?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2,
+                            "note_id": "69a40bc2000000002203a682"
+                        }
+                    ],
+                    "sex": "女",
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "content_categorys": [
+                        "时尚",
+                        "ootd"
+                    ],
+                    "fans_num": 31304,
+                    "buyer_activity": [],
+                    "buyer_tag": [
+                        "7"
+                    ],
+                    "max_online_people_num": 0,
+                    "distributor_id": "5591f86e67bc6506cc040518",
+                    "city": "浙江 杭州",
+                    "distribution_category": [],
+                    "avg_sale_amount_value": 0,
+                    "cooperate_grass_blogger": false,
+                    "bcoo_order_cnt": 0,
+                    "note_engage_median": 0,
+                    "red_id": "AHY745",
+                    "avg_live_viewer_num": "0",
+                    "distributor_name": "AHY多多",
+                    "cooperative_brand_agmv": "0-100",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31h14p04f380040t3sks6s18orouepko?imageView2/2/w/80/format/jpg",
+                    "distribution_live_num": 0,
+                    "avg_sale_amount": "0-100"
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "price_method": 1,
+                            "product_id": "638d773f84c5010001a541a8",
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "qVPlsAyWxXd45XM9neqlwA==",
+                    "is_seller_visibility": 0,
+                    "grade": 1,
+                    "buyer_bar_list": []
+                }
+            },
+            {
+                "distributor_data_info": {
+                    "avg_sale_amount_value": 0,
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "cooperate_grass_blogger": false,
+                    "content_categorys": [
+                        "时尚",
+                        "职场生活",
+                        "ootd"
+                    ],
+                    "city": "四川 成都",
+                    "atv": "0-100",
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "buyer_activity": [],
+                    "content_category": [],
+                    "note_engage_median": 0,
+                    "buyer_tag": [
+                        "7"
+                    ],
+                    "note_read_median_num": 2416,
+                    "distributor_id": "610332a00000000001000341",
+                    "red_id": "4965603190",
+                    "buyer_business_tags": [],
+                    "avg_sale_amount": "0-100",
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "fans_num": 95021,
+                    "distribution_category": [],
+                    "avg_live_viewer_num": "0",
+                    "cooperative_brand_agmv": "0-100",
+                    "bcoo_order_cnt": 0,
+                    "sex": "女",
+                    "active_fans_rate": 0.8518,
+                    "distribution_live_num": 0,
+                    "live_day_cnt": 0,
+                    "max_online_people_num": 0,
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31h753m4gjur05o836ag080q155q0hk0?imageView2/2/w/80/format/jpg",
+                    "live_viewer_num": 0,
+                    "note_base_infos": [
+                        {
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831tg92nrh5k6g5o836ag080q1e3rv4sg?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 1,
+                            "note_id": "69aeaed6000000000d00a291"
+                        }
+                    ],
+                    "distributor_name": "羊羊爱吃草"
+                },
+                "invitation_info": {
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "64fe9db5317eaa0001c5c22e",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1
+                },
+                "distributor_extra_info": {
+                    "telephone": "",
+                    "is_seller_visibility": 0,
+                    "grade": 1,
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限"
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "avg_sale_amount": "0-100",
+                    "buyer_activity": [],
+                    "cooperative_brand_agmv": "0-100",
+                    "live_day_cnt": 0,
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "city": "浙江 杭州",
+                    "distribution_live_num": 0,
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "content_categorys": [
+                        "出行旅游",
+                        "时尚",
+                        "vlog",
+                        "开箱"
+                    ],
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31eegsmm8gk005ntvbjug93jbcnmlbgo?imageView2/2/w/80/format/jpg",
+                    "fans_num": 27703,
+                    "active_fans_rate": 0.8997,
+                    "live_viewer_num": 0,
+                    "max_online_people_num": 0,
+                    "red_id": "1045694593",
+                    "atv": "0-100",
+                    "note_base_infos": [
+                        {
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g2sg31tg9661m5ke05ntvbjug93jbciodtug?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2,
+                            "note_id": "69aeb028000000000e03f224"
+                        }
+                    ],
+                    "buyer_business_tags": [],
+                    "distributor_id": "5fbf5cfd0000000001008e6b",
+                    "sex": "女",
+                    "distribution_category": [],
+                    "bcoo_order_cnt": 0,
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "buyer_tag": [
+                        "1",
+                        "7"
+                    ],
+                    "avg_sale_amount_value": 0,
+                    "distributor_name": "晶晚不熬夜",
+                    "content_category": [],
+                    "note_engage_median": 0,
+                    "avg_live_viewer_num": "0",
+                    "note_read_median_num": 18410,
+                    "cooperate_grass_blogger": false
+                },
+                "invitation_info": {
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "6683fe75cb0c4000011820ea",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0
+                },
+                "distributor_extra_info": {
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "g1ZybfG5j2yXk9/enorTmw==",
+                    "is_seller_visibility": 0,
+                    "grade": 1
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "distribution_category": [
+                        {
+                            "first_category": "女装/女士精品",
+                            "second_category": [
+                                "羽绒服",
+                                "短外套",
+                                "半身裙"
+                            ]
+                        },
+                        {
+                            "first_category": "女士内衣/男士内衣/家居服",
+                            "second_category": [
+                                "短袜/打底袜/丝袜/美腿袜"
+                            ]
+                        }
+                    ],
+                    "fans_num": 1482,
+                    "avg_live_viewer_num": "3939",
+                    "distributor_name": "奶冻",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31qltt2nin23g5ob36iigj1khiifhl60?imageView2/2/w/80/format/jpg",
+                    "content_category": [],
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "bcoo_order_cnt": 0,
+                    "distributor_id": "616dd6a1000000000201d54c",
+                    "buyer_activity": [],
+                    "note_base_infos": [
+                        {
+                            "note_id": "69abd920000000001a030073",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/notes_pre_post/1040g3k831tdgfptk5sd05obdqqggjlac01gvrvg?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 1
+                        }
+                    ],
+                    "buyer_tag": [],
+                    "avg_sale_amount_value": 7461.59375,
+                    "max_online_people_num": 31,
+                    "note_engage_median": 0,
+                    "avg_sale_amount": "5000-1w",
+                    "content_categorys": [
+                        "美妆"
+                    ],
+                    "atv": "0-100",
+                    "max_klive_seller_real_income_amt": "2w-5w",
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "active_fans_rate": 0.7139,
+                    "distribution_live_num": 0,
+                    "buyer_business_tags": [],
+                    "cooperative_brand_agmv": "5000-1w",
+                    "live_day_cnt": 5,
+                    "sex": "男",
+                    "city": "安徽 阜阳",
+                    "note_read_median_num": 3,
+                    "live_viewer_num": 1559,
+                    "red_id": "1129436922",
+                    "cooperate_grass_blogger": false
+                },
+                "invitation_info": {
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "69532ecaff761c0015739275",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1
+                },
+                "distributor_extra_info": {
+                    "is_seller_visibility": 0,
+                    "grade": 1,
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": ""
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "distribution_category": [],
+                    "note_engage_median": 0,
+                    "buyer_activity": [],
+                    "avg_live_viewer_num": "0",
+                    "note_read_median_num": 5158,
+                    "atv": "0-100",
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "note_base_infos": [
+                        {
+                            "note_id": "69affd50000000002303aa9a",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/notes_pre_post/1040g3k831thhso1456b05ncdtiagbd5863niqh8?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 1
+                        }
+                    ],
+                    "distributor_name": "THIN小敏",
+                    "city": "安徽 芜湖",
+                    "cooperate_grass_blogger": false,
+                    "buyer_business_tags": [],
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "sex": "女",
+                    "content_category": [],
+                    "active_fans_rate": 0.8409,
+                    "cooperative_brand_agmv": "0-100",
+                    "distributor_id": "5d8dec95000000000101b4a8",
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/6216e92bff41c01d8ce7ede4.jpg?imageView2/2/w/80/format/jpg",
+                    "fans_num": 221239,
+                    "distribution_live_num": 0,
+                    "avg_sale_amount": "0-100",
+                    "buyer_tag": [
+                        "7"
+                    ],
+                    "avg_sale_amount_value": 0,
+                    "red_id": "xb454356246",
+                    "live_day_cnt": 0,
+                    "live_viewer_num": 0,
+                    "bcoo_order_cnt": 0,
+                    "content_categorys": [
+                        "时尚",
+                        "氛围感",
+                        "合集",
+                        "极简主义",
+                        "高级感",
+                        "韩系",
+                        "ootd"
+                    ],
+                    "max_online_people_num": 0
+                },
+                "invitation_info": {
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "64e43d9acf8fbe000192b7ee",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0
+                },
+                "distributor_extra_info": {
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "",
+                    "is_seller_visibility": 0,
+                    "grade": 1,
+                    "buyer_bar_list": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "avg_sale_amount": "200w-500w",
+                    "avg_sale_amount_value": 4177402.577857144,
+                    "note_read_median_num": 21062,
+                    "cooperative_brand_agmv": "200w-500w",
+                    "cooperate_grass_blogger": false,
+                    "active_fans_rate": 0.8582,
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/62a3f35749f6ed65217b3c03.jpg?imageView2/2/w/80/format/jpg",
+                    "red_id": "6268701266",
+                    "buyer_activity": [],
+                    "max_online_people_num": 1013,
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "distributor_id": "626a3631000000002102296f",
+                    "distributor_name": "婵婵WANG",
+                    "content_category": [],
+                    "buyer_tag": [
+                        "5",
+                        "6"
+                    ],
+                    "avg_live_viewer_num": "27927",
+                    "sex": "女",
+                    "distribution_live_num": 0,
+                    "live_viewer_num": 26202,
+                    "live_day_cnt": 28,
+                    "live_base_info": {
+                        "live_id": "570179641212851058",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g05031tguardela005oja6ooocabfmipaf08"
+                    },
+                    "bcoo_order_cnt": 0,
+                    "buyer_business_tags": [],
+                    "note_engage_median": 0,
+                    "fans_num": 248163,
+                    "atv": "2000-5000",
+                    "max_klive_seller_real_income_amt": "500w以上",
+                    "note_base_infos": [
+                        {
+                            "note_type": 2,
+                            "note_id": "69afe64e000000002202c396",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831tguajvt58005oja6ooocabfrqiqfp0?imageView2/2/w/540/format/jpg/q/75"
+                        }
+                    ],
+                    "distribution_category": [
+                        {
+                            "first_category": "女装/女士精品",
+                            "second_category": [
+                                "短外套",
+                                "皮草",
+                                "毛针织衫",
+                                "马夹",
+                                "大衣",
+                                "套装/学生校服/工作制服",
+                                "西装",
+                                "毛呢外套",
+                                "皮衣",
+                                "衬衫",
+                                "羽绒服",
+                                "裤子",
+                                "T恤",
+                                "牛仔裤",
+                                "半身裙",
+                                "风衣",
+                                "连衣裙",
+                                "羊绒衫",
+                                "背心吊带",
+                                "唐装/民族服装/舞台服装",
+                                "卫衣/绒衫",
+                                "棉衣/棉服"
+                            ]
+                        },
+                        {
+                            "first_category": "服饰配件/皮带/帽子/围巾",
+                            "second_category": [
+                                "围巾/丝巾/披肩",
+                                "帽子"
+                            ]
+                        },
+                        {
+                            "first_category": "女鞋",
+                            "second_category": [
+                                "休闲鞋",
+                                "靴子",
+                                "时装单鞋"
+                            ]
+                        }
+                    ],
+                    "content_categorys": [
+                        "出行旅游",
+                        "时尚",
+                        "vlog"
+                    ],
+                    "city": "浙江 杭州"
+                },
+                "invitation_info": {
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "stock": 0,
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "6699df8a504f1a00016a6d1b"
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1
+                },
+                "distributor_extra_info": {
+                    "grade": 1,
+                    "buyer_bar_list": [
+                        {
+                            "title": "春装新品开售",
+                            "start_time": 1773532800000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "KywOwNUM7Q8OwsotiO6yLA==",
+                    "latest_live_plan": "2026/03/15",
+                    "live_plan": {
+                        "plan_goods_count": 0,
+                        "start_time": 1773532800000,
+                        "end_time": 1773532800000,
+                        "is_expired": false,
+                        "is_applied": false,
+                        "live_plan_id": "7614667529075236778",
+                        "title": "春装新品开售",
+                        "selected_goods_count": 0,
+                        "reservation_number": "925人"
+                    },
+                    "is_seller_visibility": 0
+                }
+            },
+            {
+                "distributor_data_info": {
+                    "city": "北京",
+                    "note_base_infos": [
+                        {
+                            "note_id": "69a81171000000001b0162e3",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/notes_pre_post/1040g3k031t9q8p9068405nhrgeh0807k41b84l8?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 1
+                        }
+                    ],
+                    "content_categorys": [
+                        "时尚"
+                    ],
+                    "buyer_business_tags": [],
+                    "distributor_id": "5e3b83a200000000010000f4",
+                    "distribution_category": [],
+                    "avg_sale_amount_value": 0,
+                    "atv": "0-100",
+                    "cooperative_brand_agmv": "0-100",
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "content_category": [],
+                    "avg_sale_amount": "0-100",
+                    "buyer_tag": [
+                        "7"
+                    ],
+                    "sex": "女",
+                    "note_read_median_num": 6553,
+                    "cooperate_grass_blogger": false,
+                    "buyer_activity": [],
+                    "avg_live_viewer_num": "0",
+                    "bcoo_order_cnt": 0,
+                    "max_online_people_num": 0,
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/630efc62131b9e95c41932b2.jpg?imageView2/2/w/80/format/jpg",
+                    "fans_num": 93285,
+                    "live_day_cnt": 0,
+                    "red_id": "570151294",
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "active_fans_rate": 0.8984,
+                    "live_viewer_num": 0,
+                    "distribution_live_num": 0,
+                    "distributor_name": "小帽子学姐",
+                    "note_engage_median": 0
+                },
+                "invitation_info": {
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 0,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "is_seller_visibility": 0,
+                    "buyer_bar_list": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "content_categorys": [
+                        "时尚",
+                        "职场生活",
+                        "氛围感",
+                        "高级感",
+                        "ootd"
+                    ],
+                    "distribution_live_num": 0,
+                    "red_id": "956891324",
+                    "buyer_tag": [
+                        "7"
+                    ],
+                    "avg_live_viewer_num": "0",
+                    "avg_sale_amount_value": 0,
+                    "note_base_infos": [
+                        {
+                            "note_id": "69b00f86000000002202ee19",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g2sg31thjc6vgle0g49osrhqrn9bb0v1a5j0?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2
+                        }
+                    ],
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "distribution_category": [],
+                    "active_fans_rate": 0.9177,
+                    "note_engage_median": 0,
+                    "live_viewer_num": 0,
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/64f81b002afe35d0205b2335.jpg?imageView2/2/w/80/format/jpg",
+                    "cooperative_brand_agmv": "0-100",
+                    "live_day_cnt": 0,
+                    "distributor_id": "59a3f5bb82ec39062a80a56b",
+                    "content_category": [],
+                    "fans_num": 30982,
+                    "avg_sale_amount": "0-100",
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "buyer_business_tags": [],
+                    "distributor_name": "石不石",
+                    "city": "湖南 岳阳",
+                    "atv": "0-100",
+                    "bcoo_order_cnt": 0,
+                    "sex": "女",
+                    "buyer_activity": [],
+                    "note_read_median_num": 315,
+                    "cooperate_grass_blogger": false,
+                    "max_online_people_num": 0
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "664ab2cb29e53c000101d9ec",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "telephone": "3wWxBr6LwWAzd7P5iKbj1w==",
+                    "is_seller_visibility": 1,
+                    "grade": 1,
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限"
+                }
+            },
+            {
+                "distributor_data_info": {
+                    "distribution_live_num": 0,
+                    "avg_live_viewer_num": "4482",
+                    "bcoo_order_cnt": 0,
+                    "content_category": [],
+                    "live_day_cnt": 5,
+                    "content_categorys": [
+                        "时尚",
+                        "生活记录",
+                        "合集",
+                        "vlog",
+                        "沉浸式",
+                        "极简主义",
+                        "ootd",
+                        "开箱"
+                    ],
+                    "buyer_business_tags": [],
+                    "atv": "200-500",
+                    "distributor_id": "65d99b27000000000503030a",
+                    "fans_num": 2369,
+                    "buyer_tag": [
+                        "4"
+                    ],
+                    "note_read_median_num": 1345,
+                    "cooperative_brand_agmv": "1000-2000",
+                    "note_engage_median": 0,
+                    "avg_sale_amount": "1w-2w",
+                    "buyer_activity": [],
+                    "avg_sale_amount_value": 11930.654,
+                    "max_online_people_num": 75,
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31ou8q0aahk005pepjcjhe0oamiiere8?imageView2/2/w/80/format/jpg",
+                    "city": "广东 佛山",
+                    "live_viewer_num": 4191,
+                    "note_base_infos": [
+                        {
+                            "note_type": 2,
+                            "note_id": "69b0065f000000000600a2a6",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/1040g00831thip02r5s105pepjcjhe0oai2r22i0?imageView2/2/w/540/format/jpg/q/75"
+                        }
+                    ],
+                    "sex": "女",
+                    "red_id": "42679635868",
+                    "cooperate_grass_blogger": false,
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "distributor_name": "是April啊",
+                    "distribution_category": [
+                        {
+                            "first_category": "女装/女士精品",
+                            "second_category": [
+                                "短外套",
+                                "T恤",
+                                "毛针织衫",
+                                "毛衣",
+                                "卫衣/绒衫",
+                                "裤子",
+                                "牛仔裤",
+                                "卫裤",
+                                "连衣裙",
+                                "背心吊带"
+                            ]
+                        },
+                        {
+                            "first_category": "女士内衣/男士内衣/家居服",
+                            "second_category": [
+                                "打底衣",
+                                "文胸",
+                                "塑身连体衣",
+                                "女士内裤（不含男士）",
+                                "乳贴",
+                                "短袜/打底袜/丝袜/美腿袜"
+                            ]
+                        },
+                        {
+                            "first_category": "男装",
+                            "second_category": [
+                                "衬衫",
+                                "夹克",
+                                "卫衣"
+                            ]
+                        }
+                    ],
+                    "live_base_info": {
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31td5v4ne5k005pepjcjhe0oau6pmrag",
+                        "live_id": "570176850459951084"
+                    },
+                    "active_fans_rate": 0.989,
+                    "max_klive_seller_real_income_amt": "1w-2w"
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "69707311ff761c0015741a7a",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "buyer_bar_list": [
+                        {
+                            "url": "",
+                            "title": "四月的长期主义买手店",
+                            "start_time": 1773453600000,
+                            "type": 1
+                        }
+                    ],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "NJ4G8V4V8ZiNBNYlpSgAAw==",
+                    "latest_live_plan": "2026/03/14",
+                    "live_plan": {
+                        "is_applied": false,
+                        "selected_goods_count": 0,
+                        "reservation_number": "32人",
+                        "live_plan_id": "7614731098904735169",
+                        "start_time": 1773453600000,
+                        "is_expired": false,
+                        "plan_goods_count": 0,
+                        "title": "四月的长期主义买手店",
+                        "end_time": 1773453600000
+                    },
+                    "is_seller_visibility": 1,
+                    "grade": 2
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "atv": "0-100",
+                    "cooperate_grass_blogger": false,
+                    "distribution_live_num": 0,
+                    "avg_sale_amount_value": 0,
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "max_online_people_num": 0,
+                    "fans_num": 91644,
+                    "cooperative_brand_agmv": "0-100",
+                    "buyer_tag": [
+                        "7"
+                    ],
+                    "note_read_median_num": 1274,
+                    "city": "湖北 武汉",
+                    "buyer_activity": [],
+                    "sex": "女",
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "live_viewer_num": 0,
+                    "note_base_infos": [
+                        {
+                            "note_id": "69b014d7000000002303b0ee",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/notes_pre_post/1040g3k031thkjdb46e105n9un3u4jcjptfccpb0?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 1
+                        }
+                    ],
+                    "distributor_id": "5d3eb8fc000000001201b279",
+                    "active_fans_rate": 0.8215,
+                    "live_day_cnt": 0,
+                    "avg_sale_amount": "0-100",
+                    "red_id": "gan61_00",
+                    "note_engage_median": 0,
+                    "avg_live_viewer_num": "0",
+                    "buyer_business_tags": [],
+                    "distributor_name": "打个哈欠",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/649d4f9c29fb964058732699.jpg?imageView2/2/w/80/format/jpg",
+                    "bcoo_order_cnt": 0,
+                    "content_categorys": [
+                        "时尚",
+                        "日系",
+                        "复古",
+                        "韩系"
+                    ],
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "content_category": [],
+                    "distribution_category": []
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "6699e0db504f1a00016aa510",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "",
+                    "is_seller_visibility": 0,
+                    "grade": 1,
+                    "buyer_bar_list": []
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "is_star": false,
+                "show_data": 1,
+                "distributor_data_info": {
+                    "sex": "女",
+                    "live_viewer_num": 0,
+                    "distribution_live_num": 0,
+                    "avg_sale_amount_value": 0,
+                    "note_base_infos": [
+                        {
+                            "note_id": "69aed3ed000000001d025960",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/notes_pre_post/1040g3k031tgdg6mclk1049l0ppa1c6ofi6gvqe8?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 1
+                        }
+                    ],
+                    "fans_num": 35906,
+                    "buyer_activity": [],
+                    "buyer_tag": [
+                        "7"
+                    ],
+                    "avg_live_viewer_num": "0",
+                    "cooperate_grass_blogger": false,
+                    "distributor_id": "5953d41650c4b476dde31b0f",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/64473083e53d4325428fbf0c.jpg?imageView2/2/w/80/format/jpg",
+                    "city": "上海",
+                    "cooperative_brand_agmv": "0-100",
+                    "content_categorys": [
+                        "时尚",
+                        "plog",
+                        "氛围感",
+                        "vlog",
+                        "ootd"
+                    ],
+                    "max_online_people_num": 0,
+                    "live_day_cnt": 0,
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "note_read_median_num": 5219,
+                    "bcoo_order_cnt": 0,
+                    "red_id": "116666864",
+                    "max_klive_seller_real_income_amt": "0-100",
+                    "live_base_info": {
+                        "live_id": "",
+                        "image_url": ""
+                    },
+                    "distributor_name": "BuLan",
+                    "content_category": [],
+                    "distribution_category": [],
+                    "active_fans_rate": 0.8822,
+                    "note_engage_median": 0,
+                    "avg_sale_amount": "0-100",
+                    "atv": "0-100",
+                    "buyer_business_tags": []
+                },
+                "invitation_info": {
+                    "uninvitable_reason": "有邀约权限",
+                    "product_list": [
+                        {
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "6602749ea7b713000125ba94",
+                            "stock": 0,
+                            "category_id": 3
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1
+                },
+                "distributor_extra_info": {
+                    "grade": 1,
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "S7xHID3Ph4+N5qKxVPxGnw==",
+                    "is_seller_visibility": 1
+                }
+            },
+            {
+                "distributor_data_info": {
+                    "content_category": [],
+                    "fans_num": 22425,
+                    "buyer_tag": [
+                        "5",
+                        "6"
+                    ],
+                    "bcoo_order_cnt": 0,
+                    "avg_sale_amount_value": 7183.3189999999995,
+                    "distributor_id": "6575b36a000000002002f4bf",
+                    "avg_sale_amount": "5000-1w",
+                    "max_klive_seller_real_income_amt": "2w-5w",
+                    "content_categorys": [
+                        "时尚",
+                        "生活记录",
+                        "plog",
+                        "ootd"
+                    ],
+                    "note_engage_median": 0,
+                    "live_day_cnt": 53,
+                    "distribution_live_num": 0,
+                    "avg_live_viewer_num": "4115",
+                    "note_base_infos": [
+                        {
+                            "note_cover": "http://sns-img-qn.xhscdn.com/notes_pre_post/1040g3k831tc6sj6m5s705pblmdl85t5vlrap2no?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 2,
+                            "note_id": "69aa8505000000001503a9cf"
+                        }
+                    ],
+                    "max_online_people_num": 126,
+                    "buyer_business_tags": [],
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31r36pde80a005pblmdl85t5v8e7rclg?imageView2/2/w/80/format/jpg",
+                    "active_fans_rate": 0.9627,
+                    "live_viewer_num": 3846,
+                    "buyer_activity": [],
+                    "cooperate_grass_blogger": false,
+                    "live_base_info": {
+                        "live_id": "570178459204412583",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31tfso51tlk705pblmdl85t5v9m8du88"
+                    },
+                    "distributor_name": "八个石榴",
+                    "city": "上海",
+                    "distribution_category": [
+                        {
+                            "second_category": [
+                                "帽子",
+                                "围巾/丝巾/披肩",
+                                "耳套",
+                                "围巾/手套/帽子套件",
+                                "手套"
+                            ],
+                            "first_category": "服饰配件/皮带/帽子/围巾"
+                        },
+                        {
+                            "first_category": "手工艺/非遗技艺",
+                            "second_category": [
+                                "手工/手作diy"
+                            ]
+                        },
+                        {
+                            "first_category": "女装/女士精品",
+                            "second_category": [
+                                "毛针织衫",
+                                "衬衫",
+                                "T恤",
+                                "半身裙"
+                            ]
+                        }
+                    ],
+                    "red_id": "7991844556",
+                    "note_read_median_num": 33649,
+                    "atv": "100-200",
+                    "sex": "女",
+                    "cooperative_brand_agmv": "5000-1w"
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "category_id": 3,
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "68030563ff761c0015717518",
+                            "stock": 0
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "grade": 1,
+                    "buyer_bar_list": [
+                        {
+                            "title": "谁懂啊这遮阳帽也太仙了",
+                            "start_time": 1773203460000,
+                            "type": 1,
+                            "url": ""
+                        }
+                    ],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "m1R7JbvWM18XocDAUPJCkQ==",
+                    "latest_live_plan": "2026/03/11",
+                    "live_plan": {
+                        "plan_goods_count": 0,
+                        "selected_goods_count": 10,
+                        "reservation_number": "未发布预告",
+                        "is_expired": false,
+                        "is_applied": false,
+                        "live_plan_id": "7615840557719610395",
+                        "title": "谁懂啊这遮阳帽也太仙了",
+                        "start_time": 1773203460000,
+                        "end_time": 1773207060000
+                    },
+                    "is_seller_visibility": 1
+                },
+                "is_star": false,
+                "show_data": 1
+            },
+            {
+                "distributor_data_info": {
+                    "cooperative_brand_agmv": "5000-1w",
+                    "distributor_id": "613de5660000000002024258",
+                    "avatar": "https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31cgniem4gu005o9tslj0kgiodnnvosg?imageView2/2/w/80/format/jpg",
+                    "red_id": "2640660502",
+                    "max_klive_seller_real_income_amt": "5000-1w",
+                    "live_day_cnt": 2,
+                    "sex": "女",
+                    "distribution_category": [
+                        {
+                            "first_category": "女装/女士精品",
+                            "second_category": [
+                                "皮衣",
+                                "半身裙",
+                                "毛衣"
+                            ]
+                        }
+                    ],
+                    "buyer_tag": [
+                        "4"
+                    ],
+                    "content_category": [],
+                    "avg_sale_amount": "5000-1w",
+                    "cooperate_grass_blogger": false,
+                    "max_online_people_num": 32,
+                    "note_read_median_num": 1190,
+                    "atv": "0-100",
+                    "bcoo_order_cnt": 0,
+                    "content_categorys": [
+                        "时尚",
+                        "plog",
+                        "氛围感",
+                        "探店",
+                        "合集",
+                        "韩系",
+                        "ootd",
+                        "教程"
+                    ],
+                    "buyer_business_tags": [],
+                    "note_engage_median": 0,
+                    "avg_sale_amount_value": 8358,
+                    "fans_num": 13365,
+                    "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62",
+                    "avg_live_viewer_num": "2714",
+                    "note_base_infos": [
+                        {
+                            "note_id": "69afed0c000000001600ab34",
+                            "note_cover": "http://sns-img-qn.xhscdn.com/notes_pre_post/1040g3k031tggrpbglk5g5o9tslj0kgiolmbs3h0?imageView2/2/w/540/format/jpg/q/75",
+                            "note_type": 1
+                        }
+                    ],
+                    "live_base_info": {
+                        "live_id": "570115149859849273",
+                        "image_url": "https://ci.xiaohongshu.com/alpha_image/1040g3lo31rh7fiom00705o9tslj0kgioirv5qr0"
+                    },
+                    "distributor_name": "宁苒儿",
+                    "live_viewer_num": 2714,
+                    "distribution_live_num": 0,
+                    "buyer_activity": [],
+                    "city": "山东 青岛",
+                    "active_fans_rate": 0.9025
+                },
+                "invitation_info": {
+                    "product_list": [
+                        {
+                            "price": 0,
+                            "price_method": 1,
+                            "product_id": "64e4348ccf8fbe0001926b56",
+                            "stock": 0,
+                            "category_id": 3
+                        }
+                    ],
+                    "invitation_id": 0,
+                    "seller_invitation_permission_type": 0,
+                    "support_pure_commission": 1,
+                    "uninvitable_reason": "有邀约权限"
+                },
+                "distributor_extra_info": {
+                    "grade": 1,
+                    "buyer_bar_list": [],
+                    "willing_category": [],
+                    "willing_commsion": "不限",
+                    "telephone": "",
+                    "is_seller_visibility": 1
+                },
+                "is_star": false,
+                "show_data": 1
+            }
+        ],
+        "total": 1772009,
+        "page_total": 5000,
+        "seed": 0,
+        "req_id": "2b1109e2-7e48-4abd-8095-27b1327adf62"
+    }
+}

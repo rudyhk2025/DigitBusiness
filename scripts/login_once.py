@@ -23,7 +23,7 @@ from src.env.stealth_launcher import launch_stealth_browser
 LOGIN_OR_HOME_URLS = {
     "DY": "https://buyin.jinritemai.com/",      # 抖店精选联盟入口
     "JD": "https://jdd.jd.com/",                 # 京麦/京东达人
-    "XHS": "https://creator.xiaohongshu.com/",   # 蒲公英创作者平台
+    "XHS": "https://pgy.xiaohongshu.com/",   # 蒲公英创作者平台
 }
 
 PLATFORM_NAMES = {"DY": "抖音/抖店", "JD": "京麦", "XHS": "小红书/蒲公英"}

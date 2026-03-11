@@ -84,9 +84,23 @@ tests/      测试
 ## 第一阶段验收（自动化地基）
 
 1. **首次登录**（每平台一次）：`python scripts/login_once.py DY`（或 JD / XHS），在打开的浏览器中完成扫码登录后关闭。
-2. **抓一页并入库**：`python scripts/run_filter_one_page.py DY`，会启动浏览器、打开精选联盟、解析一页达人并写入 `data/talent.db`。
+2. **抓一页并入库**：
+   - **抖音**：`python scripts/run_filter_one_page.py DY`，打开精选联盟、按关键词搜索、解析达人并写入 `data/talent.db` 的 `talent_dy` 表。
+   - **小红书**：`python scripts/run_filter_one_page.py XHS`，打开蒲公英博主广场，按当前脚本配置抓取并写入 `talent_xhs` 表（见下方「小红书抓取说明」）。
+   - **京东**：`python scripts/run_filter_one_page.py JD`（JD 待接入分表）。
 
-三平台选择器为占位，若页面改版需在 `src/filter/douyin.py`、`jd.py`、`xiaohongshu.py` 中更新 `SELECTORS` 与筛选逻辑。
+三平台选择器为占位，若页面改版需在 `src/filter/douyin.py`、`jd.py`、`xiaohongshu.py` 中更新选择器与筛选逻辑。
+
+### 小红书抓取说明（XHS）
+
+- **入口**：`scripts/run_filter_one_page.py XHS`，内部调用 `src/filter/xiaohongshu.fetch_one_page`。
+- **两种模式**（由 `kol_type` 决定）：
+  - **笔记博主（note）**：打开 `XHS_NOTE_KOL_URL`（博主广场·笔记），点击页面中含有 `note_contentTag` 的元素（如「健康养生」），监听接口 `api/solar/cooperator/blogger/v2`，解析返回的 `data.kols` 并写入 `talent_xhs`。
+  - **直播达人（live）**：打开 `XHS_LIVE_BUYERS_URL`（博主广场·直播），光标移到含有 `live_first_category` 的元素上，随机等待 1～3 秒后点击含有 `live_second_category` 的元素，监听接口 `api/draco/distributor-square/live/buyers`，解析 `data.distributor_info_list` 并写入 `talent_xhs`。
+- **脚本当前传参示例**（可在 `run_filter_one_page.py` 中修改）：
+  - `kol_type="note"`、`note_contentTag="健康养生"`：笔记页按内容分类筛选；
+  - `live_first_category="保健食品/膳食营养补充食品"`、`live_second_category="普通膳食营养食品"`：直播页按一级/二级类目筛选（在 `kol_type="live"` 时生效）。
+- **频率**：小红书每小时不超过 10 次动作（见 `doc/product.md`）。
 
 ## 第二阶段（AI 逻辑集成）
 
