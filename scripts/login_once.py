@@ -24,14 +24,15 @@ LOGIN_OR_HOME_URLS = {
     "DY": "https://buyin.jinritemai.com/",      # 抖店精选联盟入口
     "JD": "https://jdd.jd.com/",                 # 京麦/京东达人
     "XHS": "https://pgy.xiaohongshu.com/",   # 蒲公英创作者平台
+    "WXSHOP": "https://store.weixin.qq.com/shop?fromScene=6",  # 微信小店
 }
 
-PLATFORM_NAMES = {"DY": "抖音/抖店", "JD": "京麦", "XHS": "小红书/蒲公英"}
+PLATFORM_NAMES = {"DY": "抖音/抖店", "JD": "京麦", "XHS": "小红书/蒲公英", "WXSHOP": "微信小店"}
 
 
 async def login_once(platform: str):
     if platform not in LOGIN_OR_HOME_URLS:
-        print(f"未知平台: {platform}，可选: DY, JD, XHS")
+        print(f"未知平台: {platform}，可选: DY, JD, XHS, WXSHOP")
         return
     user_data = USER_DATA[platform]
     user_data.mkdir(parents=True, exist_ok=True)
@@ -50,7 +51,7 @@ async def login_once(platform: str):
 def main():
     platforms = [p.strip().upper() for p in sys.argv[1:] if p.strip()]
     if not platforms:
-        print("用法: python scripts/login_once.py DY [JD] [XHS]")
+        print("用法: python scripts/login_once.py DY [JD] [XHS] [WXSHOP]")
         sys.exit(1)
     for p in platforms:
         asyncio.run(login_once(p))

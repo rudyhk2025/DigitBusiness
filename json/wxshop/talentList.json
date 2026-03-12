@@ -1,0 +1,1424 @@
+{
+    "code": 0,
+    "list": [
+        {
+            "finderInfo": {
+                "headImg": "http://wx.qlogo.cn/finderhead/yAttcich8MHeg6EsUVz0HbWQPhGDAucpRvicbAD23ib81O86C0WnEYyiaYxIkDqNj2qI9hB8ib3ECykw/96?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 4,
+                        "name": "情感"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 610224
+                    },
+                    {
+                        "topCatId": "6033",
+                        "topCatName": "服饰内衣",
+                        "topCatPercentage": 123425
+                    },
+                    {
+                        "topCatId": "1701",
+                        "topCatName": "家装建材",
+                        "topCatPercentage": 98740
+                    }
+                ],
+                "fansNumber": "1万以下",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "马年马上暴富",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥50以下",
+                "liveGmv": "￥1万以下",
+                "livePerUvPrice": "0",
+                "liveGpm": "小于￥600",
+                "liveAvgUv": "小于1万",
+                "liveCnt": "12",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "0.00",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773216762,
+                "windowsScoreLevel": "",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wxe7ce8a737411a160",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofqSvYjexSusHNMhm_rgSBJor09LbePIfJDWz0yZXv6PeD6hOmv-vkShblZbAWn2Cv7p_LINWrGQ",
+                    "nickname": "马年马上暴富",
+                    "headImg": "https://wx.qlogo.cn/finderhead/yAttcich8MHeg6EsUVz0HbWQPhGDAucpRvicbAD23ib81O86C0WnEYyiaYxIkDqNj2qI9hB8ib3ECykw/0",
+                    "finderUsername": "v2_060000231003b20faec8c6ea8e10c0d5c80dee37b0773629d84587285fbffd5b2060d910a4ae@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "https://wx.qlogo.cn/finderhead/XYrRG5UShDddHl0mibve1GxEfPjGd1yicUOL7lNXRhzstxSSrATUBhreKlBRvhjbdUibZ9vMX8ibGnY/96?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 2,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 1,
+                        "name": "生活"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "6625",
+                        "topCatName": "生鲜",
+                        "topCatPercentage": 955718
+                    },
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 44281
+                    }
+                ],
+                "fansNumber": "1万-10万",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "全网都叫我文文",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万-5万",
+                "perUvPrice": "￥100-300",
+                "liveGmv": "￥1万以下",
+                "livePerUvPrice": "0",
+                "liveGpm": "小于￥600",
+                "liveAvgUv": "小于1万",
+                "liveCnt": "1",
+                "videoGmv": "￥1000以下",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "4.69",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773217573,
+                "windowsScoreLevel": "中",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wx652c82761e6b90c3",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofWAwXrbJTQ9eH-KuRldnlAf1BXyCbSI35lfkQ_qFf6x4MW8knLe32EzufFBcr8zF2a2UMOaw-Tg",
+                    "nickname": "全网都叫我文文",
+                    "headImg": "https://wx.qlogo.cn/finderhead/XYrRG5UShDddHl0mibve1GxEfPjGd1yicUOL7lNXRhzstxSSrATUBhreKlBRvhjbdUibZ9vMX8ibGnY/0",
+                    "finderUsername": "v2_060000231003b20faec8c5ea8110c1d6c707e431b07710a638918720da866d9ccbecee59175e@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://mmbiz.qpic.cn/mmbiz_jpg/rYql2ymN3B1xicfFaI9CESI92JAqLx4QDW0FEJgT9CeD2P5DwdDiaS47hntTVNLGlHvgDYSxrJibXnzaMkFzXs3tw/0?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 2,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 4,
+                        "name": "情感"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 653577
+                    },
+                    {
+                        "topCatId": "6870",
+                        "topCatName": "美妆护肤",
+                        "topCatPercentage": 212853
+                    },
+                    {
+                        "topCatId": "1001",
+                        "topCatName": "个人护理",
+                        "topCatPercentage": 128253
+                    }
+                ],
+                "fansNumber": "1万以下",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "凌云夜话-情感小广播",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥50-100",
+                "liveGmv": "￥0",
+                "livePerUvPrice": "0",
+                "liveGpm": "0",
+                "liveAvgUv": "0",
+                "liveCnt": "0",
+                "videoGmv": "￥1000-5000",
+                "videoPerUvPrice": "0",
+                "videoGpm": "￥60以上",
+                "videoAvgUv": "小于5000",
+                "videoCnt": "9",
+                "windowsScore": "4.74",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773216391,
+                "windowsScoreLevel": "高",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wxdcd66e14cbe54d82",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofSKUVlhSnkHVTh9Lh8I7_jS0-LBY4VlW63fdFkotQbB6QNa-hW_zEF9XnHdaSFv6E8uQVEdtYEA",
+                    "nickname": "凌云夜话-情感小广播",
+                    "headImg": "https://wx.qlogo.cn/finderhead/mOW261WJzibvG1R3MkruVG6FFJCzicC4oUXDRY1pRrYtfvZhTibmzc7nWoa5iaSnR9AicCT4N70MIBp0/0",
+                    "finderUsername": "v2_060000231003b20faec8c5e2891ac0d1cb01eb30b077f82034ed3b25e16865356ee437a5cf3c@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://mmbiz.qpic.cn/mmbiz_jpg/RT8yhVp8sJPgrbX1PBkGGVofna68SheWiayTFUkicPia9khbAF2Em7Qgu9HDfNXEWW6WJZGo0yibNtxic3LQjfTsnEg/0?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 7,
+                        "name": "音乐"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 733628
+                    },
+                    {
+                        "topCatId": "6625",
+                        "topCatName": "生鲜",
+                        "topCatPercentage": 101458
+                    },
+                    {
+                        "topCatId": "6932",
+                        "topCatName": "运动户外",
+                        "topCatPercentage": 56269
+                    }
+                ],
+                "fansNumber": "10万-50万",
+                "hasContact": 1,
+                "officialCertificationUrl": "",
+                "nickname": "甜甜老师教唱歌",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 1
+            },
+            "promotionInfo": {
+                "gmv": "￥1万-5万",
+                "perUvPrice": "￥100-300",
+                "liveGmv": "￥1万-5万",
+                "livePerUvPrice": "0",
+                "liveGpm": "￥1000以上",
+                "liveAvgUv": "1万-5万",
+                "liveCnt": "1",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "4.84",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773215639,
+                "windowsScoreLevel": "高",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wx2fdab7f2416a3953",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofTu7sQWJTBxdm-NnTutQ8qeGHaisZ1BCj1WtK9h_DHP7e0UnPTrohIP7p4j1y0GiEQpntP2fk3w",
+                    "nickname": "甜甜老师教唱歌",
+                    "headImg": "https://wx.qlogo.cn/finderhead/NoFChqEQomF5xPQiapzY4rcI4KuMAiaIkvN1DTtwByZUe1sHqMjhrQf2om6ibicdVk7HDhrod1iaboMI/0",
+                    "finderUsername": "v2_060000231003b20faec8c6e68a19c6d3c900e534b07741772e1c7ae58fa6f106fa835eaef10b@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://wx.qlogo.cn/finderhead/hpSILRQ9Cl0v8QtLbsuNUzWeqoPCBr13bgZfwL9GySQOPspevVcJNNzEH8eBCicS4icicolgLWMcZ4/96?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 1,
+                        "name": "生活"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 1000000
+                    }
+                ],
+                "fansNumber": "1万以下",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "小友0902",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥50-100",
+                "liveGmv": "￥0",
+                "livePerUvPrice": "0",
+                "liveGpm": "0",
+                "liveAvgUv": "0",
+                "liveCnt": "0",
+                "videoGmv": "￥1000-5000",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "4",
+                "windowsScore": "4.78",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773216601,
+                "windowsScoreLevel": "中",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wxbb896d9432a26848",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofFQn9DlNXvxuygkVEz4F8GbhOe5Iz51qtX69Q-ZPrL3gDpNBJZfQtrrO5PzoNfoEQNweGXOtRug",
+                    "nickname": "小友6285",
+                    "headImg": "https://wx.qlogo.cn/finderhead/hpSILRQ9Cl0XGNnxUPHN034OlNo3Ue5Al7dKPmE4pJ9LBETiaGpIGj36L6eGAC02JqNYb7jiaphZA/0",
+                    "finderUsername": "v2_060000231003b20faec8c6e08f1fc3d5cf06ef37b0775969442d28e98dabfa6b7f4571ee7ee8@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://wx.qlogo.cn/finderhead/oribDC6h3NRjq9NkveQW1fzzHpkCicoic5ibSD6z1Oalsd418bmX7BdXbmX4S20NkmFI46ECOEZb8mw/96?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 11,
+                        "name": "三农"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 907556
+                    },
+                    {
+                        "topCatId": "1453",
+                        "topCatName": "家庭清洁/纸品",
+                        "topCatPercentage": 32451
+                    },
+                    {
+                        "topCatId": "6870",
+                        "topCatName": "美妆护肤",
+                        "topCatPercentage": 22525
+                    }
+                ],
+                "fansNumber": "1万-10万",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "湘西农村大叔",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万-5万",
+                "perUvPrice": "￥100-300",
+                "liveGmv": "￥1万-5万",
+                "livePerUvPrice": "0",
+                "liveGpm": "小于￥600",
+                "liveAvgUv": "小于1万",
+                "liveCnt": "11",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "4.84",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773215688,
+                "windowsScoreLevel": "高",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wxa09fb7e98146c122",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "of9ABUvxkC4G-qAv_CBRostDCfYqTuFJ5g9fjvSDUTm136tPe_Jx7s7xGbeu9Rb6SjYcQ2nyEkCA",
+                    "nickname": "湘西农村大叔",
+                    "headImg": "https://wx.qlogo.cn/finderhead/oribDC6h3NRiaGUYQtq8J9MFFEXP31jrkwsW5BLZo1ymwEOCqAmQcU5taibSwbsPnagRMr89CoRicrQ/0",
+                    "finderUsername": "v2_060000231003b20faec8c6e58e1bc2d7cf07e931b07736709695f7599af38c5e2abb2b6b6023@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://mmbiz.qpic.cn/sz_mmbiz_jpg/l6QprhycwtzxDAQ3aia52g2BYpPUGO7mXAGYM6PMUicjScUXM7m6WMIlTfBe1ibAWbBLNdCkPcjg1OGPEzSbAUTvg/0?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 2,
+                        "name": "美食"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 1000000
+                    }
+                ],
+                "fansNumber": "1万-10万",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "宋老养生小妙招",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥50以下",
+                "liveGmv": "￥0",
+                "livePerUvPrice": "0",
+                "liveGpm": "0",
+                "liveAvgUv": "0",
+                "liveCnt": "0",
+                "videoGmv": "￥1000以下",
+                "videoPerUvPrice": "0",
+                "videoGpm": "小于￥30",
+                "videoAvgUv": "1万-10万",
+                "videoCnt": "6",
+                "windowsScore": "4.71",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773218098,
+                "windowsScoreLevel": "中",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wxbb6ad28bf895a87d",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofGl6i5nbUc91SGtCJApzie1Qk79jx6Njvc8kLbkUgvqS3RGFJOkME69sOBLJCz7SuhCGJ4TXyZg",
+                    "nickname": "宋老养生小妙招",
+                    "headImg": "https://wx.qlogo.cn/finderhead/AbruuZ3ILCnC1N7mrVY1ddmPPAZRVng6bJ4dpOOsYu9picdEUsmI8QE2h7opTSWJ9cmcuwaXAbzw/0",
+                    "finderUsername": "v2_060000231003b20faec8c6e58a1dc0ddce07e432b077b295ecce5a9d30bb267bc955c8e6183a@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://mmbiz.qpic.cn/mmbiz_jpg/1iaBXh5oDbNWS9gMdfjbcPKGKIOIznycxuZ8l17flaLOTaG7qbBmQKRttetD37Licq8WWNq75CE4ibxA2b8uM65uA/0?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 2,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 26,
+                        "name": "其他"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "1142",
+                        "topCatName": "厨具",
+                        "topCatPercentage": 551821
+                    },
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 448178
+                    }
+                ],
+                "fansNumber": "1万以下",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "可可分享美食",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥50以下",
+                "liveGmv": "￥1万以下",
+                "livePerUvPrice": "0",
+                "liveGpm": "小于￥600",
+                "liveAvgUv": "5万以上",
+                "liveCnt": "8",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "4.76",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773217718,
+                "windowsScoreLevel": "中",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wxd8724cf2d2d8b371",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "oforutLgO8E25VteuSDwgCkaNcpZN7RYwemy_0B3BGBc6o_lXPok8EQz58GP593xHSzj5e_ddkBw",
+                    "nickname": "可可分享美食",
+                    "headImg": "https://wx.qlogo.cn/finderhead/EVPtJJ9TsHyebhoV3MQicScv43o53urHpCzZlmk6PkCSCDUCU82JpAqicg4ohH5xbyYHdF2MibWOvo/0",
+                    "finderUsername": "v2_060000231003b20faec8c4e78e1ac1d0c600e831b077b07ed6f33e2a211a019d55028d3917c5@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://wx.qlogo.cn/finderhead/4ewxJdEd1XWwDH4lYF4jcxuwcyT3c8Bjc21EbyopRBKicKA73N8dcpkPmbIo9OKJxVUyPbogfvP8/96?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 26,
+                        "name": "其他"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "378136",
+                        "topCatName": "珠宝首饰",
+                        "topCatPercentage": 313427
+                    },
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 257070
+                    },
+                    {
+                        "topCatId": "6033",
+                        "topCatName": "服饰内衣",
+                        "topCatPercentage": 183292
+                    }
+                ],
+                "fansNumber": "1万以下",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "小天和小静的生活",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万-5万",
+                "perUvPrice": "￥100-300",
+                "liveGmv": "￥1万-5万",
+                "livePerUvPrice": "0",
+                "liveGpm": "￥1000以上",
+                "liveAvgUv": "小于1万",
+                "liveCnt": "4",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "4.91",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773216325,
+                "windowsScoreLevel": "中",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wxa5d326295daf4989",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofBut1CfkANOT6pdDuTI9qlQSs_yJNGkPmocURisZV6hT2_KF70QJSZoDWviNJf7YLmpAxFaqMRA",
+                    "nickname": "小天和小静的生活",
+                    "headImg": "https://wx.qlogo.cn/finderhead/4ewxJdEd1XWwDH4lYF4jcxuwcyT3c8Bjc21EbyopRBKicKA73N8dcpkPmbIo9OKJxVUyPbogfvP8/0",
+                    "finderUsername": "v2_060000231003b20faec8c4e08b10c5d6ce0ceb33b0775423373e6530800fc8fadbc92e1a51ee@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://mmbiz.qpic.cn/sz_mmbiz_jpg/vbfXcUgcHV0fAhvMs1zFibCqaBZ2KocRUORzJSNVvmJSb60JyepYicUc1J15xTpwDCkp7A5K7TiaWdiaWvHNmjRQtg/0?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "大家好我是熊掌柜，是带货达人",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 26,
+                        "name": "其他"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 1000000
+                    }
+                ],
+                "intentionCatList": [
+                    {
+                        "id": "10000218",
+                        "name": "粮油调味"
+                    },
+                    {
+                        "id": "10000327",
+                        "name": "传统滋补"
+                    },
+                    {
+                        "id": "10000216",
+                        "name": "休闲食品"
+                    }
+                ],
+                "fansNumber": "1万-10万",
+                "hasContact": 1,
+                "officialCertificationUrl": "",
+                "nickname": "熊掌柜一优选",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥50以下",
+                "liveGmv": "￥1万以下",
+                "livePerUvPrice": "0",
+                "liveGpm": "￥800-1000",
+                "liveAvgUv": "小于1万",
+                "liveCnt": "3",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "4.92",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773216474,
+                "windowsScoreLevel": "低",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wxe5443ff8adc80c47",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "of1_ONeoNkTAFVrAiQAbpOGeAGNLTALHlWUYJFMSrOIZvVyWoBTyVo3MZVK0yQxrQakmJnX9Yepw",
+                    "nickname": "熊掌柜一猫牙王香米",
+                    "headImg": "https://wx.qlogo.cn/finderhead/297RkryKxHDuUADD007UeXgL3nOL6v4FT5N7hIhDQXK1voHhZglnlHGibKXEIT6m00UDs8ZLTKEA/0",
+                    "finderUsername": "v2_060000231003b20faec8c7ea8a10c5d7c704e436b077d9a38ba69a49f217d0c8bd4e0d1da4f7@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://wx.qlogo.cn/finderhead/LwcbhAmMnZCWgUibuwyafz8oEicBUJyaUm0YZIW4sgLlYmcR5xlQ0ZRPPPLEAuQhm5IDicsKxFnicdQ/0?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 26,
+                        "name": "其他"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 497570
+                    },
+                    {
+                        "topCatId": "378136",
+                        "topCatName": "珠宝首饰",
+                        "topCatPercentage": 282545
+                    },
+                    {
+                        "topCatId": "1421",
+                        "topCatName": "家居日用",
+                        "topCatPercentage": 194635
+                    }
+                ],
+                "fansNumber": "1万以下",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "龙哥心语驿站",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥40万-50万",
+                "perUvPrice": "￥1000以上",
+                "liveGmv": "￥40万-50万",
+                "livePerUvPrice": "0",
+                "liveGpm": "￥1000以上",
+                "liveAvgUv": "小于1万",
+                "liveCnt": "6",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "4.78",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773217976,
+                "windowsScoreLevel": "高",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wx8323dc2026e78486",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "of_tFVwqxxUrBm9mhPs6YpzJ16eevnlnmdY2wrNV1koxPN06p1x6B_hpMUWgpcxSxV7i9aOhKsoQ",
+                    "nickname": "龙哥真心话",
+                    "headImg": "https://wx.qlogo.cn/finderhead/LwcbhAmMnZAEXMiaDuCK3wibuPibEsibrQWoUbLvYMoGhRNHCNnUO04WdsaOLngQqHpLQ1cgsR5ic8NI/0",
+                    "finderUsername": "v2_060000231003b20faec8c6ea801acad2cc07ec32b077742651e1fdd5c34fedb7dd6bd8412da0@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://wx.qlogo.cn/finderhead/574VdhMFwaF9cNC7aXdPRK3KFqX70GMVzRCpp7MtCZrFM5sPWib3pDL7P5IhSLkFWx3HHn8HxJ9U/96?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 26,
+                        "name": "其他"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "6625",
+                        "topCatName": "生鲜",
+                        "topCatPercentage": 902282
+                    },
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 97717
+                    }
+                ],
+                "fansNumber": "1万以下",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "樱花草绽放",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥50以下",
+                "liveGmv": "￥1万以下",
+                "livePerUvPrice": "0",
+                "liveGpm": "￥1000以上",
+                "liveAvgUv": "小于1万",
+                "liveCnt": "25",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "4.45",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773217071,
+                "windowsScoreLevel": "低",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wx87f5f6d853beab2a",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofBbA6RHlwj6q0q1wXHySbcHoxWK7wJzclL6VLajCqMR6rsk4fKsCouqzSvgjbRHcsApvZcyN3CQ",
+                    "nickname": "樱花草绽放",
+                    "headImg": "https://wx.qlogo.cn/finderhead/574VdhMFwaF9cNC7aXdPRK3KFqX70GMVzRCpp7MtCZrFM5sPWib3pDL7P5IhSLkFWx3HHn8HxJ9U/0",
+                    "finderUsername": "v2_060000231003b20faec8c4e08f1fc0d6ce02ef31b07729fb70ea51897f65b1472756a72bfad9@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://mmbiz.qpic.cn/mmbiz_jpg/bongibNA1Z5eqboiaHgd18eYu4xPwFhzezfRERrFsHR3ibrKJPpCibwvLxsbibEoPknqehj7pf3qe5IvS7Htm5k6Ticg/0?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 0,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 1,
+                        "name": "生活"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 978868
+                    },
+                    {
+                        "topCatId": "1001",
+                        "topCatName": "个人护理",
+                        "topCatPercentage": 10039
+                    },
+                    {
+                        "topCatId": "1421",
+                        "topCatName": "家居日用",
+                        "topCatPercentage": 6375
+                    }
+                ],
+                "intentionCatList": [
+                    {
+                        "id": "10000220",
+                        "name": "进口食品"
+                    },
+                    {
+                        "id": "10000510",
+                        "name": "普通膳食营养补充食品"
+                    },
+                    {
+                        "id": "10000181",
+                        "name": "面部护肤"
+                    }
+                ],
+                "fansNumber": "1万以下",
+                "hasContact": 1,
+                "officialCertificationUrl": "",
+                "nickname": "董小姐发发发发",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥100-300",
+                "liveGmv": "￥0",
+                "livePerUvPrice": "0",
+                "liveGpm": "0",
+                "liveAvgUv": "0",
+                "liveCnt": "0",
+                "videoGmv": "￥1000-5000",
+                "videoPerUvPrice": "0",
+                "videoGpm": "￥60以上",
+                "videoAvgUv": "小于5000",
+                "videoCnt": "28",
+                "windowsScore": "4.95",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773216337,
+                "windowsScoreLevel": "中",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wx5be4bdecec066d5f",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "oflU81VIh5ax5E9UpUNpHtwhWgnVhsNu_PurLKE7LrmtlSZK0am2Y8W7C3Z19SrpZ-z3oSDFaY4A",
+                    "nickname": "董小姐发发发",
+                    "headImg": "https://wx.qlogo.cn/finderhead/nQJbeyCfGlOYuibDhYAp3qg6iaLoFeTYVl3qjdC1kLF8IdkQFtqaX3GQ3oLbxLFgj1BLjaBf74QxM/0",
+                    "finderUsername": "v2_060000231003b20faec8c5e5881ec3d0ca00ef35b07781c750dfc67e9b040ff1025506402a4d@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://wx.qlogo.cn/finderhead/PiajxSqBRaEKdibEnSrRwbzZZLd0lbu5vV9ibMusLFa8TaCLYaqRvibK8g/96?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 2,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 2,
+                        "name": "美食"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 651356
+                    },
+                    {
+                        "topCatId": "6625",
+                        "topCatName": "生鲜",
+                        "topCatPercentage": 337921
+                    },
+                    {
+                        "topCatId": "6870",
+                        "topCatName": "美妆护肤",
+                        "topCatPercentage": 7420
+                    }
+                ],
+                "fansNumber": "1万-10万",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "喜多多吃点啥",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万-5万",
+                "perUvPrice": "￥50以下",
+                "liveGmv": "￥1万-5万",
+                "livePerUvPrice": "0",
+                "liveGpm": "小于￥600",
+                "liveAvgUv": "1万-5万",
+                "liveCnt": "16",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "4.84",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773296723,
+                "windowsScoreLevel": "中",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wx37d7b73f1ed711ca",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 2,
+                    "mpAppid": "wxc7365381abc99ab2",
+                    "nickname": "多多8967",
+                    "headImg": "http://wx.qlogo.cn/mmhead/uchmtWQh7iaq5a3ODwciatKMIGYXxUyibSvqSym6kpcn2mHygs4c68bPotRnUNlsoVsDV4ZqKUIR20/0",
+                    "bizUsername": "gh_fd84198ff619"
+                },
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofybfnW3GKLR7dGv-cDpLSFm2QEJ5iFBhFjlabk5HZSKk-ewlbzH_Q2Gpms6psO9IkQGthZj819Q",
+                    "nickname": "喜多多吃点啥.招助播",
+                    "headImg": "https://wx.qlogo.cn/finderhead/PiajxSqBRaEKdibEnSrRwbzZZLd0lbu5vV9ibMusLFa8TaCLYaqRvibK8g/0",
+                    "finderUsername": "v2_060000231003b20faec8c5e78e10c5d2cd0ce436b077f1ea0340936434f2152870a0d9926825@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://wx.qlogo.cn/finderhead/bofA1vl6EUYUiaNBZYuAiaBicNeNZbo95CHf0XEp81E20w9toMrZ6JMRfBaVbH0HXiaAlpg8aQ42r4A/96?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 2,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 2,
+                        "name": "美食"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 577907
+                    },
+                    {
+                        "topCatId": "1001",
+                        "topCatName": "个人护理",
+                        "topCatPercentage": 422092
+                    }
+                ],
+                "fansNumber": "1万以下",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "梦儿90",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥100-300",
+                "liveGmv": "￥0",
+                "livePerUvPrice": "0",
+                "liveGpm": "0",
+                "liveAvgUv": "小于1万",
+                "liveCnt": "2",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "0.00",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773217541,
+                "windowsScoreLevel": "",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wxdf26252d02f7f64e",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofww2bc4ULTdVy2ojjkBqeUd4OlYmMRp3nBlKhwgFCIrr0L3Ex5qcv-YG1bhpyTWMVzdk1sTvyRQ",
+                    "nickname": "梦儿90",
+                    "headImg": "https://wx.qlogo.cn/finderhead/bofA1vl6EUYUiaNBZYuAiaBicNeNZbo95CHf0XEp81E20w9toMrZ6JMRfBaVbH0HXiaAlpg8aQ42r4A/0",
+                    "finderUsername": "v2_060000231003b20faec8c6eb891cc1d3c607e835b077fd67927e91477bbd4ea5f03c83bfc828@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://mmbiz.qpic.cn/mmbiz_jpg/1m3tcRgdnnFU82UPN5BrrukDlAbSZVdcn2gMvfh38ia0lSmkAzMMqfn1tRbRxkaBDJWyzyXN0BVAHZdAD9y8ggw/0?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 2,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 26,
+                        "name": "其他"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "6625",
+                        "topCatName": "生鲜",
+                        "topCatPercentage": 928881
+                    },
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 71118
+                    }
+                ],
+                "fansNumber": "1万以下",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "大捌山农场",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥50以下",
+                "liveGmv": "￥1万以下",
+                "livePerUvPrice": "0",
+                "liveGpm": "小于￥600",
+                "liveAvgUv": "小于1万",
+                "liveCnt": "29",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "4.69",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773217115,
+                "windowsScoreLevel": "低",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wx5f45d00151f062b7",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofXArNVkfpSNmnhV80-YkSsN8RFfOP7tfUgyA4lVnG4xE4PGnidNhuxaqQ8tzEvjbZ-nvl9X1h6Q",
+                    "nickname": "大捌山农场",
+                    "headImg": "https://wx.qlogo.cn/finderhead/0jzLSENFOX72qvTWThjaibKcSAPS3Lg7l8NXyvicGzXwo7VzGrvtRGSibZaOiaiaXVkmoInAFBd439K0/0",
+                    "finderUsername": "v2_060000231003b20faec8c7eb8011c5dcce02e436b077f9687ef0d66f6754d0830caac8742e9e@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "https://wx.qlogo.cn/finderhead/UKxUslfaiatYsgwzQRdHn29znWXlJKvCOUJ3N3qppbLbly4J7uVU48FVGu1gRFnXanGzaIgP6yaQ/0?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 2,
+                        "name": "美食"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 1000000
+                    }
+                ],
+                "fansNumber": "1万-10万",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "老麻饼老味道",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥50以下",
+                "liveGmv": "￥0",
+                "livePerUvPrice": "0",
+                "liveGpm": "0",
+                "liveAvgUv": "0",
+                "liveCnt": "0",
+                "videoGmv": "￥0",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "0.00",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773217378,
+                "windowsScoreLevel": "",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wx10700018ae3702f1",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofFrZFc373Dh-2cVP9vsCayJ7x-mYJ3CIyDYlNn4CRT8u9191Tv6b71NDHCI2Yxt8q4JzL0v2LFg",
+                    "nickname": "老麻饼老味道",
+                    "headImg": "https://wx.qlogo.cn/finderhead/UKxUslfaiatYsgwzQRdHn29znWXlJKvCOUJ3N3qppbLbly4J7uVU48FVGu1gRFnXanGzaIgP6yaQ/0",
+                    "finderUsername": "v2_060000231003b20faec8c6e58f19c6d3c805ec36b0772ddd71783333f0755ea662eadb0c88ba@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "http://wx.qlogo.cn/finderhead/lZOZiaIlAfT2M8iawBb167lHrVtwyickiaiczHJ8zHSYeG3U0oozg7AuGOk9ibkPNdC5Tvzgje7zsaa4Q/96?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 18,
+                        "name": "人文艺术"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 1000000
+                    }
+                ],
+                "fansNumber": "1万-10万",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "惠州市茗脉世家发展有限公司",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万以下",
+                "perUvPrice": "￥50-100",
+                "liveGmv": "￥0",
+                "livePerUvPrice": "0",
+                "liveGpm": "0",
+                "liveAvgUv": "0",
+                "liveCnt": "0",
+                "videoGmv": "￥1000以下",
+                "videoPerUvPrice": "0",
+                "videoGpm": "小于￥30",
+                "videoAvgUv": "小于5000",
+                "videoCnt": "4",
+                "windowsScore": "4.68",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773217904,
+                "windowsScoreLevel": "高",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wx90ca79db0ab10e8f",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofiU3WT8E8o4OywJB-4oZObk5JrqTQ33tmuOxavRwHZvCW8DvUmGiklf7bKwoDh6Ktm7b4lzt-7g",
+                    "nickname": "茗脉世家源头花草茶厂",
+                    "headImg": "https://wx.qlogo.cn/finderhead/lZOZiaIlAfT2WPYbHQIQ4SxPz8CfiaribFhkdTrOAjhEyKQ4FCsLzyLJRegEjKfyaia69gSVod22Aicw/0",
+                    "finderUsername": "v2_060000231003b20faec8c5e18f1ac5ddcd00e930b077a1066c42ddb8b5804c1edb96b3870726@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        },
+        {
+            "finderInfo": {
+                "headImg": "https://wx.qlogo.cn/finderhead/gWicbXPiajJnibj6icqOV9Twiaa6JeJiah5O9dDbFY40dK7UmlXM8UogBa8ajKp6w0qoOTtvdbCnzZ55Q/96?wxf_fmt=jpeg/0",
+                "officialCertification": 0,
+                "finderSexType": 1,
+                "introduction": "",
+                "canInvoice": 0,
+                "contactList": [
+                    {
+                        "type": 18,
+                        "name": "人文艺术"
+                    }
+                ],
+                "topCatList": [
+                    {
+                        "topCatId": "7419",
+                        "topCatName": "食品饮料",
+                        "topCatPercentage": 986195
+                    },
+                    {
+                        "topCatId": "6625",
+                        "topCatName": "生鲜",
+                        "topCatPercentage": 13804
+                    }
+                ],
+                "fansNumber": "1万以下",
+                "hasContact": 0,
+                "officialCertificationUrl": "",
+                "nickname": "稻花香2594",
+                "highResponse": 0,
+                "fastGrowth": 0,
+                "topDaren": 0
+            },
+            "promotionInfo": {
+                "gmv": "￥1万-5万",
+                "perUvPrice": "￥50以下",
+                "liveGmv": "￥1万-5万",
+                "livePerUvPrice": "0",
+                "liveGpm": "￥1000以上",
+                "liveAvgUv": "小于1万",
+                "liveCnt": "7",
+                "videoGmv": "￥1000以下",
+                "videoPerUvPrice": "0",
+                "videoGpm": "0",
+                "videoAvgUv": "0",
+                "videoCnt": "0",
+                "windowsScore": "4.41",
+                "promoteProductCnt": 0,
+                "promoteShopCnt": 0,
+                "dataUpdateTime": 1773217071,
+                "windowsScoreLevel": "",
+                "bizAvgPv": "0-100",
+                "bizAvgPayGmv": "0",
+                "bizPayGpm": "0",
+                "bizPayGmv": "0",
+                "bizArticleNum": ""
+            },
+            "talentAppid": "wxcf5e00526599dbf2",
+            "type": 100,
+            "accountList": [
+                {
+                    "accountType": 1,
+                    "openfinderid": "ofvQetyNN0A1WLVV3hb7ig6OUBO6dCeC3SsbFIRc4Kfxmm4tt8jP0z6qDNADQ4t1Q_SGiufAYPGA",
+                    "nickname": "稻花香2594",
+                    "headImg": "https://wx.qlogo.cn/finderhead/gWicbXPiajJnibj6icqOV9Twiaa6JeJiah5O9dDbFY40dK7UmlXM8UogBa8ajKp6w0qoOTtvdbCnzZ55Q/0",
+                    "finderUsername": "v2_060000231003b20faec8cae78019c0d2ce03e93db07708331a502bea655aa4c56c9c4b4a23ad@finder"
+                }
+            ],
+            "invitationAdmission": {
+                "admissionFlag": 0
+            }
+        }
+    ],
+    "totalNum": 10000
+}

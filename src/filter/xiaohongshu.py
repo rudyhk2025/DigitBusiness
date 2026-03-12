@@ -294,11 +294,13 @@ async def fetch_one_page(
                 except Exception:
                     # 达人详情在当前 tab 打开（不弹新 tab），首次点击可能已触发同页导航，等待加载完成
                     print(f"达人详情打开失败，直接用uid打开页面")
-                    async with page.expect_popup(timeout=5000) as pinfo:
-                        await page.goto(f"{XHS_KOL_DETAIL_URL}{c.uid}", wait_until="domcontentloaded", timeout=60000)
-                    popup_page = await pinfo.value
+                    popup_page = await page.context.new_page()
                     kol_page = popup_page
-                    await kol_page.wait_for_load_state("domcontentloaded", timeout=20000)
+                    await kol_page.goto(
+                        f"{XHS_KOL_DETAIL_URL}{c.uid}",
+                        wait_until="domcontentloaded",
+                        timeout=60000,
+                    )
                 await _random_wait(2, 5)
                 # 邀约TA / 直播合作 / 微信电话联系 / 小眼睛 仅在详情页存在，整段容错避免单次超时中断全量
                 try:

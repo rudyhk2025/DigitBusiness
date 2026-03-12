@@ -71,3 +71,47 @@ CREATE TABLE IF NOT EXISTS talent_xhs (
 );
 CREATE INDEX IF NOT EXISTS idx_talent_xhs_status ON talent_xhs(status);
 CREATE INDEX IF NOT EXISTS idx_talent_xhs_uid ON talent_xhs(uid);
+
+-- 微信小店达人表 (talent_wxshop) - 初版占位，可按实际页面/API 扩充字段
+CREATE TABLE IF NOT EXISTS talent_wxshop (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    uid TEXT NOT NULL UNIQUE,
+    nickname TEXT NOT NULL,
+    fans_num INTEGER,
+    category TEXT,
+    avatar TEXT,
+    introduction TEXT,
+    status INTEGER NOT NULL DEFAULT 0,
+    wechat TEXT,
+    phone TEXT,
+    chat_log TEXT,
+    contact TEXT,
+    created_at TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS idx_talent_wxshop_status ON talent_wxshop(status);
+CREATE INDEX IF NOT EXISTS idx_talent_wxshop_uid ON talent_wxshop(uid);
+
+-- 微信小店达人表 (talent_wx)
+-- openId: 对应 wxshop talentList.json 的 accountList[].openfinderid
+CREATE TABLE IF NOT EXISTS talent_wx (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    openId TEXT NOT NULL UNIQUE,
+    nickname TEXT NOT NULL,
+    avatar TEXT,
+    finderUsername TEXT,
+    gender INTEGER,           -- 1=female, 2=male
+    introduction TEXT,
+    fans_num TEXT,            -- 如 "1万以下" / "1万-10万"（原样保存）
+    topCatList TEXT,          -- JSON
+    hasContact INTEGER DEFAULT 0,
+    status INTEGER NOT NULL DEFAULT 0,
+    wechat TEXT,
+    phone TEXT,
+    chat_log TEXT,
+    contact TEXT,
+    created_at TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS idx_talent_wx_status ON talent_wx(status);
+CREATE INDEX IF NOT EXISTS idx_talent_wx_openId ON talent_wx(openId);

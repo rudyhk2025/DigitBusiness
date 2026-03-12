@@ -1,6 +1,6 @@
 # 数字员工 · 全平台达人自动化邀约系统
 
-本地部署的智能 RPA 助手：抖音、京东、小红书后台的精准筛选 → 自动邀约 → 意向挖掘 → 信息推送。
+本地部署的智能 RPA 助手：抖音、京东、小红书、微信小店后台的精准筛选 → 自动邀约 → 意向挖掘 → 信息推送。
 
 详见 [doc/product.md](doc/product.md) 与 [doc/plan.md](doc/plan.md)。
 
@@ -71,7 +71,7 @@ asyncio.run(main())
 ```
 src/
   env/      多平台环境管理器（BrowserManager、Stealth）
-  filter/   精准筛选引擎（抖音/京东/小红书）
+  filter/   精准筛选引擎（抖音/京东/小红书/微信小店）
   chat/     AI 对话与邀约
   report/   信息上报与通知
   db/       SQLite 与达人数据
@@ -88,6 +88,7 @@ tests/      测试
    - **抖音**：`python scripts/run_filter_one_page.py DY`，打开精选联盟、按关键词搜索、解析达人并写入 `data/talent.db` 的 `talent_dy` 表。
    - **小红书**：`python scripts/run_filter_one_page.py XHS`，打开蒲公英博主广场，按当前脚本配置抓取并写入 `talent_xhs` 表（见下方「小红书抓取说明」）。
    - **京东**：`python scripts/run_filter_one_page.py JD`（JD 待接入分表）。
+   - **微信小店**：`python scripts/run_filter_one_page.py WXSHOP`，打开微信小店助手并监听列表接口（见下方「微信小店抓取说明」）。
 
 三平台选择器为占位，若页面改版需在 `src/filter/douyin.py`、`jd.py`、`xiaohongshu.py` 中更新选择器与筛选逻辑。
 
@@ -101,6 +102,15 @@ tests/      测试
   - `kol_type="note"`、`note_contentTag="健康养生"`：笔记页按内容分类筛选；
   - `live_first_category="保健食品/膳食营养补充食品"`、`live_second_category="普通膳食营养食品"`：直播页按一级/二级类目筛选（在 `kol_type="live"` 时生效）。
 - **频率**：小红书每小时不超过 10 次动作（见 `doc/product.md`）。
+
+### 微信小店抓取说明（WXSHOP）
+
+- **入口**：`scripts/run_filter_one_page.py WXSHOP`，内部调用 `src/filter/wechat_channels.fetch_one_page`。
+- **首次登录**：先执行 `python scripts/login_once.py WXSHOP`，在打开的浏览器里扫码登录微信小店助手。
+- **当前实现状态**：已提供“平台入口 + 列表接口监听 + 解析映射 + 入库回调”的框架，但**需要你按真实页面补齐两处**：
+  - **列表接口 pattern**：在 `src/filter/wechat_channels.py` 里把 `DEFAULT_API_URL_LIST_PATTERN` 改成你在 DevTools 里看到的真实列表接口 URL 片段（或后续改成脚本传参）。
+  - **返回结构解析**：按真实 JSON 结构修改 `_parse_list_response`，映射到 `WechatChannelsTalent(uid/nickname/fans_num/...)`。
+- **分表**：SQLite 表为 `talent_wxshop`（见 `src/db/schema.sql`），repo 为 `src/db/talent_wxshop_repo.py`。
 
 ## 第二阶段（AI 逻辑集成）
 

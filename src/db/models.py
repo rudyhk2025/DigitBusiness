@@ -86,6 +86,47 @@ class XiaohongshuTalent:
 
 
 @dataclass
+class WechatChannelsTalent:
+    """
+    微信小店达人表 (talent_wxshop) 对应模型。
+    说明：字段先按最小可用集定义，后续可结合微信小店助手实际 API 扩展。
+    """
+    uid: str
+    nickname: str
+    fans_num: Optional[int] = None
+    category: Optional[str] = None
+    avatar: Optional[str] = None
+    introduction: Optional[str] = None
+    status: int = STATUS_NOT_INVITED
+    wechat: Optional[str] = None
+    phone: Optional[str] = None
+    chat_log: Optional[str] = None
+    contact: Optional[str] = None
+
+
+@dataclass
+class WechatShopTalent:
+    """
+    微信小店达人表 (talent_wx) 对应模型。
+    openId 对应 wxshop 返回的 openfinderid。
+    """
+    openId: str
+    nickname: str
+    avatar: Optional[str] = None
+    finderUsername: Optional[str] = None
+    gender: Optional[int] = None  # 1=female, 2=male
+    introduction: Optional[str] = None
+    fans_num: Optional[str] = None
+    topCatList: Optional[str] = None  # JSON
+    hasContact: int = 0
+    status: int = STATUS_NOT_INVITED
+    wechat: Optional[str] = None
+    phone: Optional[str] = None
+    chat_log: Optional[str] = None
+    contact: Optional[str] = None
+
+
+@dataclass
 class TalentCandidate:
     """
     筛选引擎输出的统一结构，用于跨平台对话等场景。

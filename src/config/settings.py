@@ -13,6 +13,7 @@ USER_DATA = {
     "DY": DATA_DIR / "user_data_douyin",
     "JD": DATA_DIR / "user_data_jd",
     "XHS": DATA_DIR / "user_data_xiaohongshu",
+    "WXSHOP": DATA_DIR / "user_data_wechat_channels",
 }
 
 # 频率限制（与 product.md 一致）
@@ -20,6 +21,7 @@ RATE_LIMIT = {
     "XHS": 10,   # 小红书 每小时不超过 10 次动作
     "DY": 30,    # 抖音 每小时不超过 30 次
     "JD": 30,    # 京东 每小时不超过 30 次
+    "WXSHOP": 30,  # 微信小店 每小时不超过 30 次（先按抖音/京东同级，后续可单独调）
 }
 
 # API（占位，实际从环境变量读取）
