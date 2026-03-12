@@ -16,6 +16,9 @@ from src.filter import random_wait as _random_wait
 XHS_NOTE_KOL_URL = "https://pgy.xiaohongshu.com/solar/pre-trade/note/kol"
 # 直播达人广场（若后续需要可单独入口）
 XHS_LIVE_BUYERS_URL = "https://pgy.xiaohongshu.com/solar/pre-trade/live/kol"
+# 达人详情页
+XHS_KOL_DETAIL_URL = "https://pgy.xiaohongshu.com/solar/pre-trade/live-blogger-detail/"
+
 
 API_URL_V2_PATTERN = "api/solar/cooperator/blogger/v2"
 API_URL_BUYERS_PATTERN = "api/draco/distributor-square/live/buyers"
@@ -281,52 +284,59 @@ async def fetch_one_page(
                     pass
                 # 点击达人名称采集更多信息
                 kol_page = page
+                popup_page = None
                 try:
                     async with page.expect_popup(timeout=5000) as pinfo:
                         await page.get_by_text(c.nickname, exact=False).first.click(timeout=8000)
-                    kol_page = await pinfo.value
+                    popup_page = await pinfo.value
+                    kol_page = popup_page
                     await kol_page.wait_for_load_state("domcontentloaded", timeout=20000)
                 except Exception:
-                    # 有些场景会在当前页打开详情（不弹新 tab）
+                    # 达人详情在当前 tab 打开（不弹新 tab），首次点击可能已触发同页导航，等待加载完成
+                    print(f"达人详情打开失败，直接用uid打开页面")
+                    async with page.expect_popup(timeout=5000) as pinfo:
+                        await page.goto(f"{XHS_KOL_DETAIL_URL}{c.uid}", wait_until="domcontentloaded", timeout=60000)
+                    popup_page = await pinfo.value
+                    kol_page = popup_page
+                    await kol_page.wait_for_load_state("domcontentloaded", timeout=20000)
+                await _random_wait(2, 5)
+                # 邀约TA / 直播合作 / 微信电话联系 / 小眼睛 仅在详情页存在，整段容错避免单次超时中断全量
+                try:
+                    await kol_page.get_by_text("邀约TA").first.wait_for(state="visible", timeout=15000)
+                    await kol_page.get_by_text("邀约TA").first.click(timeout=8000)
+                    await _random_wait(1, 3)
+                    await kol_page.get_by_text("直播合作").first.click(timeout=8000)
+                    await _random_wait(1, 2)
+                    await kol_page.get_by_text("微信/电话联系").first.click(timeout=8000)
+                    await _random_wait(1, 2)
+                    # 点击小眼睛触发查询达人电话 API，监听 API_URL_KOL_CONTACT_PATTERN 并解析 phone/wechat
                     try:
-                        await page.get_by_text(c.nickname, exact=False).first.click(timeout=8000)
+                        async with kol_page.expect_response(
+                            lambda r: API_URL_KOL_CONTACT_PATTERN in r.url and r.status == 200,
+                            timeout=15000,
+                        ) as resp_info:
+                            await kol_page.locator("div.info-tel span.d-icon").first.click(timeout=8000)
+                        resp = await resp_info.value
+                        data = await resp.json()
+                        # 参考 json/xiaohongshu/query_contact.json:
+                        # {"data":{"contact_info":{"tel":"...","wechat":"..."}},"code":0,"success":true}
+                        inner = (data.get("data") or {}) if isinstance(data, dict) else {}
+                        contact_info = (inner.get("contact_info") or {}) if isinstance(inner, dict) else {}
+                        phone = contact_info.get("tel")
+                        wechat = contact_info.get("wechat")
+                        if phone is not None:
+                            c.phone = (phone.strip() or None) if isinstance(phone, str) else phone
+                        if wechat is not None:
+                            c.wechat = (wechat.strip() or None) if isinstance(wechat, str) else wechat
                     except Exception:
                         pass
+                    await _random_wait(1, 2)
+                except Exception as e:
+                    print(f"详情页操作跳过 ({c.nickname}): {e}")
 
-                await _random_wait(2, 5)
-                await kol_page.get_by_text("邀约TA").first.click(timeout=8000)
-                await _random_wait(1, 3)
-                await kol_page.get_by_text("直播合作").first.click(timeout=8000)
-                await _random_wait(1, 2)
-                await kol_page.get_by_text("微信/电话联系").first.click(timeout=8000)
-                await _random_wait(1, 2)
-                # 点击小眼睛触发查询达人电话 API，监听 API_URL_KOL_CONTACT_PATTERN 并解析 phone/wechat
-                # 返回json数据：json/xiaohongshu/query_contact.json
-                try:
-                    async with kol_page.expect_response(
-                        lambda r: API_URL_KOL_CONTACT_PATTERN in r.url and r.status == 200,
-                        timeout=15000,
-                    ) as resp_info:
-                        await kol_page.locator("div.info-tel span.d-icon").first.click(timeout=8000)
-                    resp = await resp_info.value
-                    data = await resp.json()
-                    # 参考 json/xiaohongshu/query_contact.json:
-                    # {"data":{"contact_info":{"tel":"...","wechat":"..."}},"code":0,"success":true}
-                    inner = (data.get("data") or {}) if isinstance(data, dict) else {}
-                    contact_info = (inner.get("contact_info") or {}) if isinstance(inner, dict) else {}
-                    phone = contact_info.get("tel")
-                    wechat = contact_info.get("wechat")
-                    if phone is not None:
-                        c.phone = (phone.strip() or None) if isinstance(phone, str) else phone
-                    if wechat is not None:
-                        c.wechat = (wechat.strip() or None) if isinstance(wechat, str) else wechat
-                except Exception:
-                    pass
-                await _random_wait(1, 2)
-
-                if kol_page is not None:
+                if popup_page is not None:
                     try:
-                        await kol_page.close()
+                        await popup_page.close()
                     except Exception:
                         pass
                 
@@ -347,6 +357,7 @@ async def fetch_one_page(
                     if not clicked:
                         raise RuntimeError("no next page")
 
+                print(f">>>> 翻到第 {next_page} 页，等待 API...")
                 page_data = await _wait_list_api(
                     page,
                     pattern=pattern,
@@ -354,6 +365,7 @@ async def fetch_one_page(
                     trigger=_trigger_next_page,
                 )
             except Exception:
+                print(f"翻页失败，停止继续抓取")
                 break
             page_no = next_page
 
