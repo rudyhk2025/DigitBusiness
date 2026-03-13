@@ -6,6 +6,7 @@
   python scripts/run_filter_one_page.py DY
   python scripts/run_filter_one_page.py JD
   python scripts/run_filter_one_page.py XHS
+  python scripts/run_filter_one_page.py WX
 
 需已对本平台执行过 scripts/login_once.py 完成首次登录（或 use_persistent=False 临时不读缓存）。
 """
@@ -24,13 +25,13 @@ PLATFORM_MODULES = {
     "DY": ("src.filter.douyin", "fetch_one_page"),
     "JD": ("src.filter.jd", "fetch_one_page"),
     "XHS": ("src.filter.xiaohongshu", "fetch_one_page"),
-    "WXSHOP": ("src.filter.wxshop", "fetch_one_page"),
+    "WX": ("src.filter.wxshop", "fetch_one_page"),
 }
 
 
 async def main(platform: str, use_persistent: bool = True):
     if platform not in PLATFORM_MODULES:
-        print("平台可选: DY, JD, XHS, WXSHOP")
+        print("平台可选: DY, JD, XHS, WX")
         return
     mod_name, fn_name = PLATFORM_MODULES[platform]
     import importlib
@@ -54,21 +55,22 @@ async def main(platform: str, use_persistent: bool = True):
 
             candidates = await fetch_one_page(page, kol_type="live", note_contentTag="健康养生", live_first_category="保健食品/膳食营养补充食品", live_second_category="普通膳食营养食品", limit=20, on_candidate=_on_candidate)
             print(f"  本次共解析到 {len(candidates)} 条，已写入 talent_xhs")
-        elif platform == "WXSHOP":
+        elif platform == "WX":
+            from src.filter.wxshop import WxshopFilters
+
+            filters = WxshopFilters(
+                deliver_categories=["食品饮料", "美妆护肤"], #带货类目
+                deliver_metrics=[{"带货销售总额": ["￥1万以下", "￥1万-5万"]}], #带货数据
+                talent_profile=[{"粉丝量": ["小于1万", "1万-10万"]}], #达人画像
+                # fans_profile=[{"粉丝年龄": ["25-39岁"]}], #粉丝画像
+                # others=["有联系方式"],  #其他筛选
+            )
+
             async def _on_candidate(t):
                 talent_wx_repo.add(t)
                 print(f"  add db: {t.nickname} ({t.openId}), hasContact: {t.hasContact}")
 
-                from src.filter.wxshop import WxshopFilters
-                filters = WxshopFilters(
-                    deliver_categories=["食品饮料", "美妆护肤"],
-                    deliver_metrics=["直播观众数", "小于1万"],   # 以你页面真实文案为准
-                    talent_profile=["女性"],
-                    fans_profile=["1万以下"],
-                    others=["有联系方式"],
-                )
-
-            candidates = await fetch_one_page(page, filters=filters, on_candidate=_on_candidate)
+            candidates = await fetch_one_page(page, filters=filters, limit=20, on_candidate=_on_candidate)
             print(f"  本次共解析到 {len(candidates)} 条，已写入 talent_wx")
         else:
             candidates = await fetch_one_page(page)
@@ -87,6 +89,6 @@ async def main(platform: str, use_persistent: bool = True):
 if __name__ == "__main__":
     platform = (sys.argv[1] or "").strip().upper()
     if not platform:
-        print("用法: python scripts/run_filter_one_page.py DY|JD|XHS|WXSHOP")
+        print("用法: python scripts/run_filter_one_page.py DY|JD|XHS|WX")
         sys.exit(1)
     asyncio.run(main(platform))

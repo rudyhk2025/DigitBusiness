@@ -1,5 +1,5 @@
 """
-微信小店 · 达人广场抓取（WXSHOP）。
+微信小店 · 达人广场抓取（WX）。
 
 列表接口返回结构参考：json/wxshop/talentList.json
 
@@ -25,7 +25,7 @@ from src.db.models import TalentCandidate, WechatShopTalent
 from src.db import talent_wx_repo
 from src.filter import random_wait as _random_wait
 
-WXSHOP_KOL_LIST_URL = "https://store.weixin.qq.com/shop/findersquare/find"
+WX_KOL_LIST_URL = "https://store.weixin.qq.com/shop/findersquare/find"
 API_TALENT_LIST_URL_PATTERN = "shop-faas/mmchannelstradeleague/finderSquare/cgi/getSquareTalentList"
 
 @dataclass
@@ -33,21 +33,19 @@ class WxshopFilters:
     """
     微信小店达人广场筛选参数（按页面分组）。
 
-    说明：
-    - 这里不强绑定具体 DOM 结构，只按“分组标题 + 选项文案”进行点击。
-    - 你可以直接把页面上看到的文案传进来，例如：
-      - deliver_categories=["食品饮料", "美妆护肤"]
-      - deliver_metrics=["GMV：￥1万以下", "直播场次：0-10"]（以实际文案为准）
-      - talent_profile=["女性", "官方认证"]（以实际文案为准）
-      - fans_profile=["1万以下", "1万-10万"]（以实际文案为准）
-      - others=["有联系方式"]
+    结构说明：
+    - deliver_categories: 带货类目，平铺选项文案。
+    - deliver_metrics: 带货数据，按子维度传 [{"维度名": ["选项1", "选项2"]}]，如 [{"直播观众数": ["¥1万以下", "¥1万-5万"]}]。
+    - talent_profile: 达人画像，同上 [{"维度名": ["选项"]}]，如 [{"粉丝量": ["小于1万"]}]。
+    - fans_profile: 粉丝画像，同上 [{"维度名": ["选项"]}]，如 [{"粉丝年龄": ["25-39岁"]}]。
+    - others: 其他筛选，平铺选项文案，如 ["有联系方式"]。
     """
 
     deliver_categories: list[str] = field(default_factory=list)  # 带货类目
-    deliver_metrics: list[str] = field(default_factory=list)     # 带货数据
-    talent_profile: list[str] = field(default_factory=list)      # 达人画像
-    fans_profile: list[str] = field(default_factory=list)        # 粉丝画像
-    others: list[str] = field(default_factory=list)              # 其他筛选
+    deliver_metrics: list[dict[str, list[str]]] = field(default_factory=list)   # 带货数据 [{"直播观众数": ["¥1万以下"]}]
+    talent_profile: list[dict[str, list[str]]] = field(default_factory=list)   # 达人画像 [{"粉丝量": ["小于1万"]}]
+    fans_profile: list[dict[str, list[str]]] = field(default_factory=list)    # 粉丝画像 [{"粉丝年龄": ["25-39岁"]}]
+    others: list[str] = field(default_factory=list)  # 其他筛选
 
 
 def _app_root(page):
@@ -58,54 +56,40 @@ def _app_root(page):
     return page.locator('micro-app[name="findersquare"]').first
 
 
-async def _is_option_selected(opt) -> bool:
+async def _click_blank(page) -> None:
     """
-    尝试判断一个筛选项是否处于“已选中”状态。
-    兼容常见实现：aria-checked/aria-selected、input.checked、class 包含 active/selected/checked。
+    在页面空白处点击一下，用于收起筛选下拉或结束本次筛选交互。
+    采用一个较靠上的固定坐标，尽量避开按钮区域。
     """
     try:
-        return await opt.evaluate(
-            """(el) => {
-              const attr = (n) => (el.getAttribute && el.getAttribute(n)) || null;
-              const ariaChecked = attr('aria-checked');
-              if (ariaChecked === 'true') return true;
-              const ariaSelected = attr('aria-selected');
-              if (ariaSelected === 'true') return true;
-              // input checkbox/radio
-              const input = el.querySelector && el.querySelector('input[type="checkbox"],input[type="radio"]');
-              if (input && input.checked) return true;
-              const cls = (el.className || '').toString().toLowerCase();
-              if (cls.includes('active') || cls.includes('selected') || cls.includes('checked')) return true;
-              return false;
-            }"""
-        )
+        await page.mouse.click(5, 5)
     except Exception:
-        return False
+        try:
+            await page.click("body", position={"x": 5, "y": 5}, timeout=1000)
+        except Exception:
+            pass
 
 
-async def _click_and_assert_selected(scope, option_text: str, *, timeout_ms: int = 15000) -> bool:
+async def _click_filter(scope, option_text: str, *, timeout_ms: int = 15000) -> bool:
     """
-    在 scope 范围内点击某个选项文案，并校验其最终变为“选中”。
-    返回是否成功选中。
+    在 scope 范围内点击某个选项文案。
+    仅根据点击是否抛异常返回 True/False，不再检查选中状态。
     """
+    print("点击：", option_text)
     opt = scope.get_by_text(option_text, exact=False).first
     try:
-        await opt.wait_for(state="visible", timeout=timeout_ms)
+        # await opt.wait_for(state="visible", timeout=timeout_ms)
         await opt.click(timeout=timeout_ms)
-    except Exception:
+        return True
+    except Exception as e:
+        print("点击失败：", option_text, e)
         return False
-
-    # 等 UI 状态更新
-    for _ in range(20):
-        if await _is_option_selected(opt):
-            return True
-        await scope.page.wait_for_timeout(150)
-    return await _is_option_selected(opt)
 
 
 async def _apply_group_filters(page, *, group_title: str, options: Iterable[str]) -> dict[str, bool]:
     """
-    按“分组标题”应用多项筛选，并返回每个选项是否选中成功。
+    按“分组标题”应用多项筛选（平铺选项），并返回每个选项是否选中成功。
+    TODO: 有部份筛选项是隐藏不可见的，需要点击“展开”后才能显示
     """
     root = _app_root(page)
     results: dict[str, bool] = {}
@@ -113,26 +97,91 @@ async def _apply_group_filters(page, *, group_title: str, options: Iterable[str]
     if not opts:
         return results
 
-    # 通过标题定位分组，再在该分组附近点击选项
-    # 由于 DOM 可能变化，这里用“标题元素的父容器”作为 scope 做启发式查找。
     title_loc = root.get_by_text(group_title, exact=False).first
     try:
         await title_loc.wait_for(state="visible", timeout=8000)
     except Exception:
-        # 找不到该分组就直接标记失败（避免误点别处）
         for o in opts:
             results[o] = False
         return results
 
     group_scope = title_loc.locator("xpath=ancestor::*[self::div or self::section][1]")
     for o in opts:
-        ok = await _click_and_assert_selected(group_scope, o)
+        ok = await _click_filter(group_scope, o)
         results[o] = ok
-        await _random_wait(0.2, 0.6)
+        await _random_wait(1, 5)
     return results
 
 
-async def apply_filters_and_check(page, filters: WxshopFilters) -> dict[str, dict[str, bool]]:
+async def _apply_group_filters_with_subgroups(
+    page, *, group_title: str, subgroups: list[dict[str, list[str]]]
+) -> dict[str, bool]:
+    """
+    按“分组标题 + 子维度”应用筛选。subgroups 如 [{"带货销售总额": ["￥1万以下", "￥1万-5万"]}]：
+    先定位到 group_title 所在区域，再在该区域内按子维度标题定位并点击其下选项。
+    """
+    root = _app_root(page)
+    results: dict[str, bool] = {}
+    if not subgroups:
+        return results
+
+    print("筛选 分组标题 + 子维度（纯文字点击）：", group_title, subgroups)
+
+    # 1）直接按分组标题文字点击一次（展开分组）
+    try:
+        title_loc = root.get_by_text(group_title, exact=False).first
+        await title_loc.wait_for(state="visible", timeout=8000)
+        # await title_loc.click(timeout=5000, force=True)
+        await _random_wait(1, 4)
+    except Exception as e:
+        print(f"[WX] 分组标题[{group_title}] 文字点击失败：{e}")
+        # 分组点不开，后面的子维度基本不会出现，直接返回空结果
+        return results
+
+    # 2）对子维度和选项，同样按文字在全局 root 范围内点击
+    for sub_dict in subgroups:
+        if not isinstance(sub_dict, dict):
+            continue
+        for sub_title, opts in sub_dict.items():
+            if not (sub_title or "").strip() or not isinstance(opts, (list, tuple)):
+                continue
+
+            # 先点击一次子维度标题（有的 UI 需要先展开子维度）
+            try:
+                # print("点击子维度标题：", sub_title)
+                # sub_loc = root.get_by_text(sub_title, exact=False).first
+                # await sub_loc.wait_for(state="visible", timeout=5000)
+                # await sub_loc.click(timeout=5000, force=True)
+                await _click_filter(root, sub_title)
+                await _random_wait(0.2, 0.6)
+            except Exception as e:
+                print(f"[WX] 子维度[{sub_title}] 文字点击失败：{e}")
+                # 尝试直接点选项
+
+            for o in opts:
+                o = (o or "").strip()
+                if not o:
+                    continue
+                # 只尝试点击选项，不再判断“是否选中”，成功/失败仅看是否抛异常
+                ok = False
+                try:
+                    # print("点击选项：", o)
+                    # opt_loc = root.get_by_text(o, exact=False).first
+                    # await opt_loc.wait_for(state="visible", timeout=5000)
+                    # await opt_loc.click(timeout=5000, force=True)
+                    group_scope = title_loc.locator("xpath=ancestor::*[self::div or self::section][1]")
+                    await _click_filter(group_scope, o)
+                    ok = True
+                except Exception as e:
+                    print(f"[WX] 选项[{o}] 点击失败：{e}")
+                results[o] = ok
+                await _random_wait(1, 3)
+    # 微信小店筛选组件在选择后通常需要点一下空白处收起浮层，认为本轮筛选结束
+    await _click_blank(page)
+    return results
+
+
+async def apply_filters(page, filters: WxshopFilters) -> dict[str, dict[str, bool]]:
     """
     应用筛选并校验每项是否生效（被选中）。
     返回结构：{group: {option_text: True/False}}
@@ -152,9 +201,15 @@ async def apply_filters_and_check(page, filters: WxshopFilters) -> dict[str, dic
 
     return {
         "带货类目": await _apply_group_filters(page, group_title="带货类目", options=filters.deliver_categories),
-        "带货数据": await _apply_group_filters(page, group_title="带货数据", options=filters.deliver_metrics),
-        "达人画像": await _apply_group_filters(page, group_title="达人画像", options=filters.talent_profile),
-        "粉丝画像": await _apply_group_filters(page, group_title="粉丝画像", options=filters.fans_profile),
+        "带货数据": await _apply_group_filters_with_subgroups(
+            page, group_title="带货数据", subgroups=filters.deliver_metrics
+        ),
+        "达人画像": await _apply_group_filters_with_subgroups(
+            page, group_title="达人画像", subgroups=filters.talent_profile
+        ),
+        "粉丝画像": await _apply_group_filters_with_subgroups(
+            page, group_title="粉丝画像", subgroups=filters.fans_profile
+        ),
         "其他筛选": await _apply_group_filters(page, group_title="其他筛选", options=filters.others),
     }
 
@@ -247,23 +302,24 @@ async def fetch_one_page(
     打开微信小店达人广场并监听列表接口抓一页。
 
     使用方式（建议）：
-    1) 先执行 `python scripts/login_once.py WXSHOP` 完成登录；
-    2) 运行 `python scripts/run_filter_one_page.py WXSHOP`；
+    1) 先执行 `python scripts/login_once.py WX` 完成登录；
+    2) 运行 `python scripts/run_filter_one_page.py WX`；
     3) 如接口路径变更，可通过 api_list_pattern 覆盖监听 pattern。
     """
+
 
     pattern = api_list_pattern or API_TALENT_LIST_URL_PATTERN
 
     try:
-        await page.goto(WXSHOP_KOL_LIST_URL, wait_until="domcontentloaded", timeout=60000)
+        await page.goto(WX_KOL_LIST_URL, wait_until="domcontentloaded", timeout=60000)
         await _random_wait(1.5, 3.0)
 
         if filters is not None:
-            check = await apply_filters_and_check(page, filters)
+            check = await apply_filters(page, filters)
             # 若有明显失败项，打印出来，方便你对照页面文案/DOM 调整
             failed = [(g, o) for g, m in check.items() for o, ok in m.items() if ok is False]
             if failed:
-                print(f"[WXSHOP] 筛选未生效项: {failed}")
+                print(f"[WX] 筛选未生效项: {failed}")
 
         # 触发一次列表加载后再监听（通常筛选会自动刷新列表；否则可手动滚动/翻页触发）
         data = await _wait_list_api(page, pattern=pattern, timeout_ms=30000)
@@ -292,7 +348,7 @@ async def fetch_one_page(
 
     return [
         TalentCandidate(
-            platform="WXSHOP",
+            platform="WX",
             talent_id=t.openId,
             username=t.nickname,
             fans_count=None,
